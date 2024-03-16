@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08548AE13BE4A8E6B42655D7 /* Pods_KSAVoiceBot_KSAVoiceBotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53046590842620E85A058500 /* Pods_KSAVoiceBot_KSAVoiceBotUITests.framework */; };
+		A6CD2F5532F74246C05731C3 /* Pods_KSAVoiceBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD8D221F904E95C50CF0D5D /* Pods_KSAVoiceBot.framework */; };
+		B848D25D2A97486200B6FC08 /* SwiftyGifImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B848D25A2A9747EE00B6FC08 /* SwiftyGifImageView.swift */; };
+		B84EDA652ABC9A2900C2A631 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA642ABC9A2900C2A631 /* SettingView.swift */; };
+		B84F28FF2A9F281600BBC826 /* sliderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F28FE2A9F281600BBC826 /* sliderListView.swift */; };
+		B84F29012A9F28E100BBC826 /* RecorederSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F29002A9F28E100BBC826 /* RecorederSheetView.swift */; };
+		B84F29032A9F2B7A00BBC826 /* Color+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F29022A9F2B7A00BBC826 /* Color+Extention.swift */; };
+		B84F29072AA0B57800BBC826 /* onBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F29062AA0B57800BBC826 /* onBoardingView.swift */; };
+		B88408032A9B758800A69A06 /* View+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88408022A9B758800A69A06 /* View+Extention.swift */; };
+		B88408052A9BD2D600A69A06 /* NationalDay93Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88408042A9BD2D600A69A06 /* NationalDay93Model.swift */; };
+		B88408072A9BD76400A69A06 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88408062A9BD76400A69A06 /* ErrorView.swift */; };
+		B88408092A9BD7AD00A69A06 /* VoiceBotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88408082A9BD7AD00A69A06 /* VoiceBotViewModel.swift */; };
+		B88408162A9D089B00A69A06 /* BotCarecterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88408152A9D089B00A69A06 /* BotCarecterModel.swift */; };
+		B889AF8C2A8F68AE0047E269 /* ChatBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889AF8B2A8F68AE0047E269 /* ChatBotView.swift */; };
+		B889AF8E2A8F68CC0047E269 /* ChatBotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889AF8D2A8F68CC0047E269 /* ChatBotViewModel.swift */; };
+		B889AF902A90D0930047E269 /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889AF8F2A90D0930047E269 /* String+Extention.swift */; };
+		B8922E6A2A9B4409007BB7C7 /* CarecterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8922E692A9B4409007BB7C7 /* CarecterView.swift */; };
+		B8CD97A02A869F1900BCEBFC /* KSAVoiceBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD979F2A869F1900BCEBFC /* KSAVoiceBotApp.swift */; };
+		B8CD97A22A869F1900BCEBFC /* VoiceBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD97A12A869F1900BCEBFC /* VoiceBotView.swift */; };
+		B8CD97A42A869F1A00BCEBFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CD97A32A869F1A00BCEBFC /* Assets.xcassets */; };
+		B8CD97A72A869F1A00BCEBFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CD97A62A869F1A00BCEBFC /* Preview Assets.xcassets */; };
+		B8CD97B12A869F1A00BCEBFC /* KSAVoiceBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD97B02A869F1A00BCEBFC /* KSAVoiceBotTests.swift */; };
+		B8CD97BB2A869F1A00BCEBFC /* KSAVoiceBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD97BA2A869F1A00BCEBFC /* KSAVoiceBotUITests.swift */; };
+		B8CD97BD2A869F1A00BCEBFC /* KSAVoiceBotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD97BC2A869F1A00BCEBFC /* KSAVoiceBotUITestsLaunchTests.swift */; };
+		B8CD97CA2A877B3700BCEBFC /* AssistantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD97C92A877B3700BCEBFC /* AssistantService.swift */; };
+		B8CD97CC2A87FFA000BCEBFC /* BotAssestentUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD97CB2A87FFA000BCEBFC /* BotAssestentUseCase.swift */; };
+		B8CD981C2A8BD6CA00BCEBFC /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD981B2A8BD6CA00BCEBFC /* DependencyContainer.swift */; };
+		B8CD981E2A8BFB4B00BCEBFC /* TextToSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD981D2A8BFB4B00BCEBFC /* TextToSpeechService.swift */; };
+		B8CD98202A8D023700BCEBFC /* BotAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CD981F2A8D023700BCEBFC /* BotAudioPlayer.swift */; };
+		B8D881652AA22ACA00101272 /* najed-listening.gif in Resources */ = {isa = PBXBuildFile; fileRef = B8D881612AA22ACA00101272 /* najed-listening.gif */; };
+		B8D881662AA22ACA00101272 /* najed-talking.gif in Resources */ = {isa = PBXBuildFile; fileRef = B8D881622AA22ACA00101272 /* najed-talking.gif */; };
+		B8D881672AA22ACA00101272 /* saud-talking.gif in Resources */ = {isa = PBXBuildFile; fileRef = B8D881632AA22ACA00101272 /* saud-talking.gif */; };
+		B8D881682AA22ACA00101272 /* saud-listening.gif in Resources */ = {isa = PBXBuildFile; fileRef = B8D881642AA22ACA00101272 /* saud-listening.gif */; };
+		B8E1341C2A98D6300009FACF /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E1341B2A98D6300009FACF /* CircleGroupView.swift */; };
+		B8E134272A99F5CD0009FACF /* FontTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E134232A99F5CD0009FACF /* FontTheme.swift */; };
+		B8E134282A99F5CD0009FACF /* EtimadFontTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E134242A99F5CD0009FACF /* EtimadFontTheme.swift */; };
+		B8E134292A99F5CD0009FACF /* FontsName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E134252A99F5CD0009FACF /* FontsName.swift */; };
+		B8E1342A2A99F5CD0009FACF /* FontsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E134262A99F5CD0009FACF /* FontsExampleView.swift */; };
+		B8E134302A99F5EE0009FACF /* DINNEXTLTARABIC-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8E1342C2A99F5EE0009FACF /* DINNEXTLTARABIC-Light.ttf */; };
+		B8E134312A99F5EE0009FACF /* DINNEXTLTARABIC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8E1342D2A99F5EE0009FACF /* DINNEXTLTARABIC-Bold.ttf */; };
+		B8E134322A99F5EE0009FACF /* DINNEXTLTARABIC-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8E1342E2A99F5EE0009FACF /* DINNEXTLTARABIC-Medium.ttf */; };
+		B8E134332A99F5EE0009FACF /* DINNEXTLTARABIC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8E1342F2A99F5EE0009FACF /* DINNEXTLTARABIC-Regular.ttf */; };
+		B8E134352A9A07AE0009FACF /* MicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E134342A9A07AE0009FACF /* MicView.swift */; };
+		B8E964562A9124A0008C89BF /* KeyboardDismissExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E964552A9124A0008C89BF /* KeyboardDismissExtension.swift */; };
+		B8E964582A928093008C89BF /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E964572A928093008C89BF /* SpeechRecognizer.swift */; };
+		B8E9645F2A960F3D008C89BF /* BotAppErorr.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9645E2A960F3D008C89BF /* BotAppErorr.swift */; };
+		E8989F11E491FC1E090BDEF4 /* Pods_KSAVoiceBotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361B43A692E08AA991617319 /* Pods_KSAVoiceBotTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8CD97AD2A869F1A00BCEBFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CD97942A869F1900BCEBFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8CD979B2A869F1900BCEBFC;
+			remoteInfo = KSAVoiceBot;
+		};
+		B8CD97B72A869F1A00BCEBFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CD97942A869F1900BCEBFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8CD979B2A869F1900BCEBFC;
+			remoteInfo = KSAVoiceBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		361B43A692E08AA991617319 /* Pods_KSAVoiceBotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSAVoiceBotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		446858AB2C741ED902A9ADB9 /* Pods-KSAVoiceBotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSAVoiceBotTests.debug.xcconfig"; path = "Target Support Files/Pods-KSAVoiceBotTests/Pods-KSAVoiceBotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4772A5845B72613FA3B63C02 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSAVoiceBot-KSAVoiceBotUITests.debug.xcconfig"; path = "Target Support Files/Pods-KSAVoiceBot-KSAVoiceBotUITests/Pods-KSAVoiceBot-KSAVoiceBotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53046590842620E85A058500 /* Pods_KSAVoiceBot_KSAVoiceBotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSAVoiceBot_KSAVoiceBotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAB4ADAFBC3CDC83424EFE0 /* Pods-KSAVoiceBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSAVoiceBot.release.xcconfig"; path = "Target Support Files/Pods-KSAVoiceBot/Pods-KSAVoiceBot.release.xcconfig"; sourceTree = "<group>"; };
+		857CEB535E6D8443BDBEAB35 /* Pods-KSAVoiceBotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSAVoiceBotTests.release.xcconfig"; path = "Target Support Files/Pods-KSAVoiceBotTests/Pods-KSAVoiceBotTests.release.xcconfig"; sourceTree = "<group>"; };
+		97D285DED70547173656DF43 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSAVoiceBot-KSAVoiceBotUITests.release.xcconfig"; path = "Target Support Files/Pods-KSAVoiceBot-KSAVoiceBotUITests/Pods-KSAVoiceBot-KSAVoiceBotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B848D25A2A9747EE00B6FC08 /* SwiftyGifImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyGifImageView.swift; sourceTree = "<group>"; };
+		B84EDA642ABC9A2900C2A631 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		B84F28FE2A9F281600BBC826 /* sliderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sliderListView.swift; sourceTree = "<group>"; };
+		B84F29002A9F28E100BBC826 /* RecorederSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorederSheetView.swift; sourceTree = "<group>"; };
+		B84F29022A9F2B7A00BBC826 /* Color+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extention.swift"; sourceTree = "<group>"; };
+		B84F29062AA0B57800BBC826 /* onBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingView.swift; sourceTree = "<group>"; };
+		B88408022A9B758800A69A06 /* View+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extention.swift"; sourceTree = "<group>"; };
+		B88408042A9BD2D600A69A06 /* NationalDay93Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalDay93Model.swift; sourceTree = "<group>"; };
+		B88408062A9BD76400A69A06 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		B88408082A9BD7AD00A69A06 /* VoiceBotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceBotViewModel.swift; sourceTree = "<group>"; };
+		B88408152A9D089B00A69A06 /* BotCarecterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotCarecterModel.swift; sourceTree = "<group>"; };
+		B889AF8B2A8F68AE0047E269 /* ChatBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotView.swift; sourceTree = "<group>"; };
+		B889AF8D2A8F68CC0047E269 /* ChatBotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotViewModel.swift; sourceTree = "<group>"; };
+		B889AF8F2A90D0930047E269 /* String+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
+		B8922E692A9B4409007BB7C7 /* CarecterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarecterView.swift; sourceTree = "<group>"; };
+		B8CD979C2A869F1900BCEBFC /* KSAVoiceBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSAVoiceBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CD979F2A869F1900BCEBFC /* KSAVoiceBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSAVoiceBotApp.swift; sourceTree = "<group>"; };
+		B8CD97A12A869F1900BCEBFC /* VoiceBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceBotView.swift; sourceTree = "<group>"; };
+		B8CD97A32A869F1A00BCEBFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8CD97A62A869F1A00BCEBFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B8CD97AC2A869F1A00BCEBFC /* KSAVoiceBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSAVoiceBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CD97B02A869F1A00BCEBFC /* KSAVoiceBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSAVoiceBotTests.swift; sourceTree = "<group>"; };
+		B8CD97B62A869F1A00BCEBFC /* KSAVoiceBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSAVoiceBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CD97BA2A869F1A00BCEBFC /* KSAVoiceBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSAVoiceBotUITests.swift; sourceTree = "<group>"; };
+		B8CD97BC2A869F1A00BCEBFC /* KSAVoiceBotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSAVoiceBotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8CD97C92A877B3700BCEBFC /* AssistantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantService.swift; sourceTree = "<group>"; };
+		B8CD97CB2A87FFA000BCEBFC /* BotAssestentUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotAssestentUseCase.swift; sourceTree = "<group>"; };
+		B8CD981B2A8BD6CA00BCEBFC /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		B8CD981D2A8BFB4B00BCEBFC /* TextToSpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechService.swift; sourceTree = "<group>"; };
+		B8CD981F2A8D023700BCEBFC /* BotAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotAudioPlayer.swift; sourceTree = "<group>"; };
+		B8D881612AA22ACA00101272 /* najed-listening.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "najed-listening.gif"; path = "../../../../../../../Downloads/najed-listening.gif"; sourceTree = "<group>"; };
+		B8D881622AA22ACA00101272 /* najed-talking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "najed-talking.gif"; path = "../../../../../../../Downloads/najed-talking.gif"; sourceTree = "<group>"; };
+		B8D881632AA22ACA00101272 /* saud-talking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "saud-talking.gif"; path = "../../../../../../../Downloads/saud-talking.gif"; sourceTree = "<group>"; };
+		B8D881642AA22ACA00101272 /* saud-listening.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "saud-listening.gif"; path = "../../../../../../../Downloads/saud-listening.gif"; sourceTree = "<group>"; };
+		B8E1341B2A98D6300009FACF /* CircleGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		B8E1341D2A99F0CE0009FACF /* logo.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = logo.webp; sourceTree = "<group>"; };
+		B8E134232A99F5CD0009FACF /* FontTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontTheme.swift; sourceTree = "<group>"; };
+		B8E134242A99F5CD0009FACF /* EtimadFontTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtimadFontTheme.swift; sourceTree = "<group>"; };
+		B8E134252A99F5CD0009FACF /* FontsName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsName.swift; sourceTree = "<group>"; };
+		B8E134262A99F5CD0009FACF /* FontsExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsExampleView.swift; sourceTree = "<group>"; };
+		B8E1342C2A99F5EE0009FACF /* DINNEXTLTARABIC-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNEXTLTARABIC-Light.ttf"; sourceTree = "<group>"; };
+		B8E1342D2A99F5EE0009FACF /* DINNEXTLTARABIC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNEXTLTARABIC-Bold.ttf"; sourceTree = "<group>"; };
+		B8E1342E2A99F5EE0009FACF /* DINNEXTLTARABIC-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNEXTLTARABIC-Medium.ttf"; sourceTree = "<group>"; };
+		B8E1342F2A99F5EE0009FACF /* DINNEXTLTARABIC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNEXTLTARABIC-Regular.ttf"; sourceTree = "<group>"; };
+		B8E134342A9A07AE0009FACF /* MicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicView.swift; sourceTree = "<group>"; };
+		B8E964552A9124A0008C89BF /* KeyboardDismissExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardDismissExtension.swift; sourceTree = "<group>"; };
+		B8E964572A928093008C89BF /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		B8E964592A938C09008C89BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B8E9645E2A960F3D008C89BF /* BotAppErorr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotAppErorr.swift; sourceTree = "<group>"; };
+		DBD8D221F904E95C50CF0D5D /* Pods_KSAVoiceBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSAVoiceBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAEB0B17E39214329AFFBD0 /* Pods-KSAVoiceBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSAVoiceBot.debug.xcconfig"; path = "Target Support Files/Pods-KSAVoiceBot/Pods-KSAVoiceBot.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8CD97992A869F1900BCEBFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CD2F5532F74246C05731C3 /* Pods_KSAVoiceBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CD97A92A869F1A00BCEBFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8989F11E491FC1E090BDEF4 /* Pods_KSAVoiceBotTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CD97B32A869F1A00BCEBFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08548AE13BE4A8E6B42655D7 /* Pods_KSAVoiceBot_KSAVoiceBotUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E4AED230FB37F92AD8D1876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBD8D221F904E95C50CF0D5D /* Pods_KSAVoiceBot.framework */,
+				53046590842620E85A058500 /* Pods_KSAVoiceBot_KSAVoiceBotUITests.framework */,
+				361B43A692E08AA991617319 /* Pods_KSAVoiceBotTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4616D6649FEB634EBA8E21A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBAEB0B17E39214329AFFBD0 /* Pods-KSAVoiceBot.debug.xcconfig */,
+				7FAB4ADAFBC3CDC83424EFE0 /* Pods-KSAVoiceBot.release.xcconfig */,
+				4772A5845B72613FA3B63C02 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.debug.xcconfig */,
+				97D285DED70547173656DF43 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.release.xcconfig */,
+				446858AB2C741ED902A9ADB9 /* Pods-KSAVoiceBotTests.debug.xcconfig */,
+				857CEB535E6D8443BDBEAB35 /* Pods-KSAVoiceBotTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B848D25E2A976F8000B6FC08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8CD97A32A869F1A00BCEBFC /* Assets.xcassets */,
+				B8E1342B2A99F5EE0009FACF /* Fonts */,
+				B848D25F2A976F9C00B6FC08 /* gifImages */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B848D25F2A976F9C00B6FC08 /* gifImages */ = {
+			isa = PBXGroup;
+			children = (
+				B8D881612AA22ACA00101272 /* najed-listening.gif */,
+				B8D881622AA22ACA00101272 /* najed-talking.gif */,
+				B8D881642AA22ACA00101272 /* saud-listening.gif */,
+				B8D881632AA22ACA00101272 /* saud-talking.gif */,
+				B8E1341D2A99F0CE0009FACF /* logo.webp */,
+			);
+			path = gifImages;
+			sourceTree = "<group>";
+		};
+		B84F28FC2A9F27E200BBC826 /* VoiceBotView */ = {
+			isa = PBXGroup;
+			children = (
+				B84F28FD2A9F27FB00BBC826 /* views */,
+				B8CD97A12A869F1900BCEBFC /* VoiceBotView.swift */,
+				B84EDA642ABC9A2900C2A631 /* SettingView.swift */,
+			);
+			path = VoiceBotView;
+			sourceTree = "<group>";
+		};
+		B84F28FD2A9F27FB00BBC826 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B84F28FE2A9F281600BBC826 /* sliderListView.swift */,
+				B84F29002A9F28E100BBC826 /* RecorederSheetView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B884080A2A9BD7EE00A69A06 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B8E134222A99F5CD0009FACF /* Font Theme */,
+				B848D25A2A9747EE00B6FC08 /* SwiftyGifImageView.swift */,
+				B884080C2A9BD88500A69A06 /* Extentions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B884080B2A9BD85500A69A06 /* ViewsComponents */ = {
+			isa = PBXGroup;
+			children = (
+				B8922E692A9B4409007BB7C7 /* CarecterView.swift */,
+				B88408062A9BD76400A69A06 /* ErrorView.swift */,
+				B8E134342A9A07AE0009FACF /* MicView.swift */,
+				B8E1341B2A98D6300009FACF /* CircleGroupView.swift */,
+			);
+			path = ViewsComponents;
+			sourceTree = "<group>";
+		};
+		B884080C2A9BD88500A69A06 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				B84F29022A9F2B7A00BBC826 /* Color+Extention.swift */,
+				B88408022A9B758800A69A06 /* View+Extention.swift */,
+				B889AF8F2A90D0930047E269 /* String+Extention.swift */,
+				B8E964552A9124A0008C89BF /* KeyboardDismissExtension.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		B884080D2A9BD89D00A69A06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B8E9645E2A960F3D008C89BF /* BotAppErorr.swift */,
+				B88408042A9BD2D600A69A06 /* NationalDay93Model.swift */,
+				B88408152A9D089B00A69A06 /* BotCarecterModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B884080E2A9BD93D00A69A06 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B88408082A9BD7AD00A69A06 /* VoiceBotViewModel.swift */,
+				B889AF8D2A8F68CC0047E269 /* ChatBotViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B884080F2A9BDCD000A69A06 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B8E964572A928093008C89BF /* SpeechRecognizer.swift */,
+				B8CD981F2A8D023700BCEBFC /* BotAudioPlayer.swift */,
+				B8CD97CB2A87FFA000BCEBFC /* BotAssestentUseCase.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B88408102A9BDD3000A69A06 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B889AF8B2A8F68AE0047E269 /* ChatBotView.swift */,
+				B84F29062AA0B57800BBC826 /* onBoardingView.swift */,
+				B84F28FC2A9F27E200BBC826 /* VoiceBotView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B889AF882A8E31C90047E269 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B8CD979F2A869F1900BCEBFC /* KSAVoiceBotApp.swift */,
+				B8CD981B2A8BD6CA00BCEBFC /* DependencyContainer.swift */,
+				B884080E2A9BD93D00A69A06 /* ViewModels */,
+				B88408102A9BDD3000A69A06 /* Screens */,
+				B884080F2A9BDCD000A69A06 /* Managers */,
+				B884080D2A9BD89D00A69A06 /* Models */,
+				B884080B2A9BD85500A69A06 /* ViewsComponents */,
+				B884080A2A9BD7EE00A69A06 /* Utilities */,
+				B848D25E2A976F8000B6FC08 /* Resources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B889AF892A8E31DE0047E269 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B8CD97C92A877B3700BCEBFC /* AssistantService.swift */,
+				B8CD981D2A8BFB4B00BCEBFC /* TextToSpeechService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B8CD97932A869F1900BCEBFC = {
+			isa = PBXGroup;
+			children = (
+				B8CD979E2A869F1900BCEBFC /* KSAVoiceBot */,
+				B8CD97AF2A869F1A00BCEBFC /* KSAVoiceBotTests */,
+				B8CD97B92A869F1A00BCEBFC /* KSAVoiceBotUITests */,
+				B8CD979D2A869F1900BCEBFC /* Products */,
+				A4616D6649FEB634EBA8E21A /* Pods */,
+				9E4AED230FB37F92AD8D1876 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8CD979D2A869F1900BCEBFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8CD979C2A869F1900BCEBFC /* KSAVoiceBot.app */,
+				B8CD97AC2A869F1A00BCEBFC /* KSAVoiceBotTests.xctest */,
+				B8CD97B62A869F1A00BCEBFC /* KSAVoiceBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8CD979E2A869F1900BCEBFC /* KSAVoiceBot */ = {
+			isa = PBXGroup;
+			children = (
+				B8E964592A938C09008C89BF /* Info.plist */,
+				B889AF882A8E31C90047E269 /* App */,
+				B889AF892A8E31DE0047E269 /* Data */,
+				B8CD97A52A869F1A00BCEBFC /* Preview Content */,
+			);
+			path = KSAVoiceBot;
+			sourceTree = "<group>";
+		};
+		B8CD97A52A869F1A00BCEBFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B8CD97A62A869F1A00BCEBFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B8CD97AF2A869F1A00BCEBFC /* KSAVoiceBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8CD97B02A869F1A00BCEBFC /* KSAVoiceBotTests.swift */,
+			);
+			path = KSAVoiceBotTests;
+			sourceTree = "<group>";
+		};
+		B8CD97B92A869F1A00BCEBFC /* KSAVoiceBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8CD97BA2A869F1A00BCEBFC /* KSAVoiceBotUITests.swift */,
+				B8CD97BC2A869F1A00BCEBFC /* KSAVoiceBotUITestsLaunchTests.swift */,
+			);
+			path = KSAVoiceBotUITests;
+			sourceTree = "<group>";
+		};
+		B8E134222A99F5CD0009FACF /* Font Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B8E134232A99F5CD0009FACF /* FontTheme.swift */,
+				B8E134242A99F5CD0009FACF /* EtimadFontTheme.swift */,
+				B8E134252A99F5CD0009FACF /* FontsName.swift */,
+				B8E134262A99F5CD0009FACF /* FontsExampleView.swift */,
+			);
+			path = "Font Theme";
+			sourceTree = "<group>";
+		};
+		B8E1342B2A99F5EE0009FACF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B8E1342C2A99F5EE0009FACF /* DINNEXTLTARABIC-Light.ttf */,
+				B8E1342D2A99F5EE0009FACF /* DINNEXTLTARABIC-Bold.ttf */,
+				B8E1342E2A99F5EE0009FACF /* DINNEXTLTARABIC-Medium.ttf */,
+				B8E1342F2A99F5EE0009FACF /* DINNEXTLTARABIC-Regular.ttf */,
+			);
+			name = Fonts;
+			path = "../../../../../Indivitual App/EtimadIndividual/Resources/Fonts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8CD979B2A869F1900BCEBFC /* KSAVoiceBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CD97C02A869F1A00BCEBFC /* Build configuration list for PBXNativeTarget "KSAVoiceBot" */;
+			buildPhases = (
+				D721AE0AAAF95D536846AC6D /* [CP] Check Pods Manifest.lock */,
+				B8CD97982A869F1900BCEBFC /* Sources */,
+				B8CD97992A869F1900BCEBFC /* Frameworks */,
+				B8CD979A2A869F1900BCEBFC /* Resources */,
+				72B612B4198B81911B24B1B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSAVoiceBot;
+			productName = KSAVoiceBot;
+			productReference = B8CD979C2A869F1900BCEBFC /* KSAVoiceBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8CD97AB2A869F1A00BCEBFC /* KSAVoiceBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CD97C32A869F1A00BCEBFC /* Build configuration list for PBXNativeTarget "KSAVoiceBotTests" */;
+			buildPhases = (
+				6B36C4E35670D6252320ADE1 /* [CP] Check Pods Manifest.lock */,
+				B8CD97A82A869F1A00BCEBFC /* Sources */,
+				B8CD97A92A869F1A00BCEBFC /* Frameworks */,
+				B8CD97AA2A869F1A00BCEBFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8CD97AE2A869F1A00BCEBFC /* PBXTargetDependency */,
+			);
+			name = KSAVoiceBotTests;
+			productName = KSAVoiceBotTests;
+			productReference = B8CD97AC2A869F1A00BCEBFC /* KSAVoiceBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8CD97B52A869F1A00BCEBFC /* KSAVoiceBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CD97C62A869F1A00BCEBFC /* Build configuration list for PBXNativeTarget "KSAVoiceBotUITests" */;
+			buildPhases = (
+				93F3C76780FB4CC1AC6F9A60 /* [CP] Check Pods Manifest.lock */,
+				B8CD97B22A869F1A00BCEBFC /* Sources */,
+				B8CD97B32A869F1A00BCEBFC /* Frameworks */,
+				B8CD97B42A869F1A00BCEBFC /* Resources */,
+				9EED2D9E0F907C0D650FAA3F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8CD97B82A869F1A00BCEBFC /* PBXTargetDependency */,
+			);
+			name = KSAVoiceBotUITests;
+			productName = KSAVoiceBotUITests;
+			productReference = B8CD97B62A869F1A00BCEBFC /* KSAVoiceBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8CD97942A869F1900BCEBFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B8CD979B2A869F1900BCEBFC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B8CD97AB2A869F1A00BCEBFC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B8CD979B2A869F1900BCEBFC;
+					};
+					B8CD97B52A869F1A00BCEBFC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B8CD979B2A869F1900BCEBFC;
+					};
+				};
+			};
+			buildConfigurationList = B8CD97972A869F1900BCEBFC /* Build configuration list for PBXProject "KSAVoiceBot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = B8CD97932A869F1900BCEBFC;
+			productRefGroup = B8CD979D2A869F1900BCEBFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8CD979B2A869F1900BCEBFC /* KSAVoiceBot */,
+				B8CD97AB2A869F1A00BCEBFC /* KSAVoiceBotTests */,
+				B8CD97B52A869F1A00BCEBFC /* KSAVoiceBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8CD979A2A869F1900BCEBFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E134302A99F5EE0009FACF /* DINNEXTLTARABIC-Light.ttf in Resources */,
+				B8E134322A99F5EE0009FACF /* DINNEXTLTARABIC-Medium.ttf in Resources */,
+				B8CD97A72A869F1A00BCEBFC /* Preview Assets.xcassets in Resources */,
+				B8CD97A42A869F1A00BCEBFC /* Assets.xcassets in Resources */,
+				B8D881662AA22ACA00101272 /* najed-talking.gif in Resources */,
+				B8E134312A99F5EE0009FACF /* DINNEXTLTARABIC-Bold.ttf in Resources */,
+				B8E134332A99F5EE0009FACF /* DINNEXTLTARABIC-Regular.ttf in Resources */,
+				B8D881682AA22ACA00101272 /* saud-listening.gif in Resources */,
+				B8D881672AA22ACA00101272 /* saud-talking.gif in Resources */,
+				B8D881652AA22ACA00101272 /* najed-listening.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CD97AA2A869F1A00BCEBFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CD97B42A869F1A00BCEBFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B36C4E35670D6252320ADE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSAVoiceBotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72B612B4198B81911B24B1B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KSAVoiceBot/Pods-KSAVoiceBot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KSAVoiceBot/Pods-KSAVoiceBot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KSAVoiceBot/Pods-KSAVoiceBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93F3C76780FB4CC1AC6F9A60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSAVoiceBot-KSAVoiceBotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EED2D9E0F907C0D650FAA3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KSAVoiceBot-KSAVoiceBotUITests/Pods-KSAVoiceBot-KSAVoiceBotUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KSAVoiceBot-KSAVoiceBotUITests/Pods-KSAVoiceBot-KSAVoiceBotUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KSAVoiceBot-KSAVoiceBotUITests/Pods-KSAVoiceBot-KSAVoiceBotUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D721AE0AAAF95D536846AC6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSAVoiceBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8CD97982A869F1900BCEBFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CD97A22A869F1900BCEBFC /* VoiceBotView.swift in Sources */,
+				B889AF8E2A8F68CC0047E269 /* ChatBotViewModel.swift in Sources */,
+				B8CD981C2A8BD6CA00BCEBFC /* DependencyContainer.swift in Sources */,
+				B84F29072AA0B57800BBC826 /* onBoardingView.swift in Sources */,
+				B84EDA652ABC9A2900C2A631 /* SettingView.swift in Sources */,
+				B8922E6A2A9B4409007BB7C7 /* CarecterView.swift in Sources */,
+				B889AF902A90D0930047E269 /* String+Extention.swift in Sources */,
+				B8E134272A99F5CD0009FACF /* FontTheme.swift in Sources */,
+				B8E9645F2A960F3D008C89BF /* BotAppErorr.swift in Sources */,
+				B88408072A9BD76400A69A06 /* ErrorView.swift in Sources */,
+				B88408032A9B758800A69A06 /* View+Extention.swift in Sources */,
+				B88408092A9BD7AD00A69A06 /* VoiceBotViewModel.swift in Sources */,
+				B8CD98202A8D023700BCEBFC /* BotAudioPlayer.swift in Sources */,
+				B8CD97CC2A87FFA000BCEBFC /* BotAssestentUseCase.swift in Sources */,
+				B889AF8C2A8F68AE0047E269 /* ChatBotView.swift in Sources */,
+				B8E134292A99F5CD0009FACF /* FontsName.swift in Sources */,
+				B8E134352A9A07AE0009FACF /* MicView.swift in Sources */,
+				B8CD97A02A869F1900BCEBFC /* KSAVoiceBotApp.swift in Sources */,
+				B8CD981E2A8BFB4B00BCEBFC /* TextToSpeechService.swift in Sources */,
+				B8E1341C2A98D6300009FACF /* CircleGroupView.swift in Sources */,
+				B8E1342A2A99F5CD0009FACF /* FontsExampleView.swift in Sources */,
+				B84F29032A9F2B7A00BBC826 /* Color+Extention.swift in Sources */,
+				B8E964582A928093008C89BF /* SpeechRecognizer.swift in Sources */,
+				B8E134282A99F5CD0009FACF /* EtimadFontTheme.swift in Sources */,
+				B848D25D2A97486200B6FC08 /* SwiftyGifImageView.swift in Sources */,
+				B84F29012A9F28E100BBC826 /* RecorederSheetView.swift in Sources */,
+				B8CD97CA2A877B3700BCEBFC /* AssistantService.swift in Sources */,
+				B8E964562A9124A0008C89BF /* KeyboardDismissExtension.swift in Sources */,
+				B84F28FF2A9F281600BBC826 /* sliderListView.swift in Sources */,
+				B88408162A9D089B00A69A06 /* BotCarecterModel.swift in Sources */,
+				B88408052A9BD2D600A69A06 /* NationalDay93Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CD97A82A869F1A00BCEBFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CD97B12A869F1A00BCEBFC /* KSAVoiceBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CD97B22A869F1A00BCEBFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CD97BB2A869F1A00BCEBFC /* KSAVoiceBotUITests.swift in Sources */,
+				B8CD97BD2A869F1A00BCEBFC /* KSAVoiceBotUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8CD97AE2A869F1A00BCEBFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8CD979B2A869F1900BCEBFC /* KSAVoiceBot */;
+			targetProxy = B8CD97AD2A869F1A00BCEBFC /* PBXContainerItemProxy */;
+		};
+		B8CD97B82A869F1A00BCEBFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8CD979B2A869F1900BCEBFC /* KSAVoiceBot */;
+			targetProxy = B8CD97B72A869F1A00BCEBFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B8CD97BE2A869F1A00BCEBFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8CD97BF2A869F1A00BCEBFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8CD97C12A869F1A00BCEBFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBAEB0B17E39214329AFFBD0 /* Pods-KSAVoiceBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KSAVoiceBot/Preview Content\"";
+				DEVELOPMENT_TEAM = 89ZB275WFG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KSAVoiceBot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "آل بوت - السعودية";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "الرجاء السماح بهذه الخاصية حتى يتمكن البوت من سماع صوتك  ";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "الرجاء السماح بهذه الخاصية حتى يتمكن البوت من فهم كلامك  ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = renad.ksaVoiceBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8CD97C22A869F1A00BCEBFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAB4ADAFBC3CDC83424EFE0 /* Pods-KSAVoiceBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KSAVoiceBot/Preview Content\"";
+				DEVELOPMENT_TEAM = 89ZB275WFG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KSAVoiceBot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "آل بوت - السعودية";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "الرجاء السماح بهذه الخاصية حتى يتمكن البوت من سماع صوتك  ";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "الرجاء السماح بهذه الخاصية حتى يتمكن البوت من فهم كلامك  ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = renad.ksaVoiceBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8CD97C42A869F1A00BCEBFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 446858AB2C741ED902A9ADB9 /* Pods-KSAVoiceBotTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pinkNinjas.ksaVoiceBot.KSAVoiceBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSAVoiceBot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KSAVoiceBot";
+			};
+			name = Debug;
+		};
+		B8CD97C52A869F1A00BCEBFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857CEB535E6D8443BDBEAB35 /* Pods-KSAVoiceBotTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pinkNinjas.ksaVoiceBot.KSAVoiceBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSAVoiceBot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KSAVoiceBot";
+			};
+			name = Release;
+		};
+		B8CD97C72A869F1A00BCEBFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4772A5845B72613FA3B63C02 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pinkNinjas.ksaVoiceBot.KSAVoiceBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSAVoiceBot;
+			};
+			name = Debug;
+		};
+		B8CD97C82A869F1A00BCEBFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D285DED70547173656DF43 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pinkNinjas.ksaVoiceBot.KSAVoiceBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSAVoiceBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8CD97972A869F1900BCEBFC /* Build configuration list for PBXProject "KSAVoiceBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CD97BE2A869F1A00BCEBFC /* Debug */,
+				B8CD97BF2A869F1A00BCEBFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8CD97C02A869F1A00BCEBFC /* Build configuration list for PBXNativeTarget "KSAVoiceBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CD97C12A869F1A00BCEBFC /* Debug */,
+				B8CD97C22A869F1A00BCEBFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8CD97C32A869F1A00BCEBFC /* Build configuration list for PBXNativeTarget "KSAVoiceBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CD97C42A869F1A00BCEBFC /* Debug */,
+				B8CD97C52A869F1A00BCEBFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8CD97C62A869F1A00BCEBFC /* Build configuration list for PBXNativeTarget "KSAVoiceBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CD97C72A869F1A00BCEBFC /* Debug */,
+				B8CD97C82A869F1A00BCEBFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8CD97942A869F1900BCEBFC /* Project object */;
+}

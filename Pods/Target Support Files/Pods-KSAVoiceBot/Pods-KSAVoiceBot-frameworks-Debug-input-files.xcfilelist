@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-KSAVoiceBot/Pods-KSAVoiceBot-frameworks.sh
+${BUILT_PRODUCTS_DIR}/IBMSwiftSDKCore/IBMSwiftSDKCore.framework
+${BUILT_PRODUCTS_DIR}/IBMWatsonAssistantV2/Assistant.framework
+${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework

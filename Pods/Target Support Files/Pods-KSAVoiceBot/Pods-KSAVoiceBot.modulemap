@@ -1,0 +1,6 @@
+framework module Pods_KSAVoiceBot {
+  umbrella header "Pods-KSAVoiceBot-umbrella.h"
+
+  export *
+  module * { export * }
+}

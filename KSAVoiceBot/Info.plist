@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAudioPlaybackUsageDescription</key>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>DINNEXTLTARABIC-Light.ttf</string>
+		<string>DINNEXTLTARABIC-Bold.ttf</string>
+		<string>DINNEXTLTARABIC-Medium.ttf</string>
+		<string>DINNEXTLTARABIC-Regular.ttf</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>Color-Blue</string>
+		<key>UIImageName</key>
+		<string>logo</string>
+	</dict>
+</dict>
+</plist>

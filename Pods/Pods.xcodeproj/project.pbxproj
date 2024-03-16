@@ -1,0 +1,1724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0376CBADD8283EA45F75FD58855E2482 /* IBMWatsonAssistantV2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A3375C086C2643FE1B3EF2B3071890 /* IBMWatsonAssistantV2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0616CE50297B2F98C2A69FFCDFDEFAB2 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8102FDBBC5D83F98BACBF89B99B8AA1 /* Log.swift */; };
+		0A40B48996196F3AE3CD73051D257210 /* DialogLogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA7B42CA85B66FB10147C4DA49DC07 /* DialogLogMessage.swift */; };
+		0D6311F6EC3DAF4A4B0FEF98C4B4CE57 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307595806291521E57193746229C7ADB /* SearchResult.swift */; };
+		0E0327CBB0B18A13F04D68671C4AA081 /* MessageInputOptionsSpelling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4B3942984845FF3BD5AB9AF30D278F /* MessageInputOptionsSpelling.swift */; };
+		1119BB99FE65FEEA8D08332195F21172 /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 9233379FE95B13C4460026F89B3BDEA1 /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1274083BEECA3D55DA995F4638B3C358 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CF8F03DB1617098BB007CDBE106864 /* JWT.swift */; };
+		12C043525A25252B692AB7089BD72D51 /* NSImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE9C0AE2C676B5762F5909E36B85656 /* NSImageView+SwiftyGif.swift */; };
+		13A69DB5AD804BECED5EA6463518B09D /* LogMessageSourceDialogNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE934C0AE01F59D17D358B8A3F74F0 /* LogMessageSourceDialogNode.swift */; };
+		14C08BCFDB503F63E49E6222BEF5B270 /* RestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1313E4FD56A210C14C8BEB9B4FFD16D8 /* RestError.swift */; };
+		14D7C6373C74178E0A8C95FEA1183F5A /* BulkClassifyOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1304D3F7D27C94AF8F3B3E945B73BD1 /* BulkClassifyOutput.swift */; };
+		150F08215645B3F3C84C4EFAB85EC66D /* DialogSuggestionValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2633C797DD1DFCBF17AABA59DE7DF9 /* DialogSuggestionValue.swift */; };
+		16228676CBE881B13B9B9A7D92EF8911 /* CredentialUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E0EFFD12AC2BB5B192511AB447CB49 /* CredentialUtils.swift */; };
+		1731423F92740EC960D196A6714EC76D /* RuntimeResponseGenericRuntimeResponseTypeConnectToAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C416FEFABF5942EAE334E339CC51AE38 /* RuntimeResponseGenericRuntimeResponseTypeConnectToAgent.swift */; };
+		1C4037F996AFFB10E6563988C4E0C29D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1E0F83CE320F1651CB12A8AB1CBD19D9 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6950B351C015122B9683EC0FC9203E /* SwiftyGifManager.swift */; };
+		1F07D95F4EB55EC46C276BAE6405FBE0 /* MessageOutputSpelling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82503F268ABFBBD4E7EC5A631E135AC7 /* MessageOutputSpelling.swift */; };
+		23F9AEC69FA1ADC15FD9228029509866 /* CodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABFD30E13FA954BD36D7B6823BBA7D5 /* CodableExtensions.swift */; };
+		243240ADCF020CFD1A5B79037BC937E7 /* IBMWatsonAssistantV2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 694C0043F29D3ACD0307AFB0AA252B7A /* IBMWatsonAssistantV2-dummy.m */; };
+		27564303CD23F0E8CF8625E7A78A7692 /* MessageContextGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB570D029DC529658EB2FC2218CAC204 /* MessageContextGlobal.swift */; };
+		275E083F49CDE379D029D428E762A90F /* RuntimeResponseGenericRuntimeResponseTypeSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DCA7662E8330CEAE30DBCAAEF33D1 /* RuntimeResponseGenericRuntimeResponseTypeSearch.swift */; };
+		2DF0487316C1BDB974C1879803A3C21E /* MessageContextSkillSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDBB82919B21948126D7F7449649451 /* MessageContextSkillSystem.swift */; };
+		31AA9DC1498B26F7A2A45385C17BE0AF /* RuntimeResponseGenericRuntimeResponseTypeSuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8FB89815B98812A344B5477A272231 /* RuntimeResponseGenericRuntimeResponseTypeSuggestion.swift */; };
+		326077A637C359FD77A6AC00D4205B42 /* RuntimeResponseGenericRuntimeResponseTypeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B83EA8CDF5108A29308C0BAD6CBF27 /* RuntimeResponseGenericRuntimeResponseTypeImage.swift */; };
+		3286194AD1DB09E757A20C35F3905478 /* Assistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00A5224133D177EEAC6910A6C469842 /* Assistant.swift */; };
+		3573C82E6DFF7938A5986821D244CDF7 /* DialogNodeOutputOptionsElementValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53344248122885241F247EE4B0063E48 /* DialogNodeOutputOptionsElementValue.swift */; };
+		3657883D3D9ADCA05B538D66B292F139 /* InsecureConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617634BB3440BBAE886851888CDD8128 /* InsecureConnection.swift */; };
+		367BEAE354CDFDCBE23C3E494F96DA31 /* MessageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B171A8181847EF0AB63AE07FC5E4BBD /* MessageRequest.swift */; };
+		39FD0B02104D67914DDE6F3CC8FA5BF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3CD878DD60D5C105E48A276AC651FDE9 /* Pods-KSAVoiceBot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B0FEC86CEC539BFDD8172106D4DA2 /* Pods-KSAVoiceBot-dummy.m */; };
+		3CE9A4D26456ED055F94D6C360D60D51 /* RuntimeIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036D231329B1A96D164240485F6001BA /* RuntimeIntent.swift */; };
+		460A7D281F71CD842187CFEF68807F7F /* AgentAvailabilityMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB3B21EC64E5B58D61ACC7180DC485 /* AgentAvailabilityMessage.swift */; };
+		463BD9FB45CC942F1DDB8D73E5DAEEBA /* RestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20667D05BE39D6CC04124B829C562AF9 /* RestRequest.swift */; };
+		50E4589E67547F7B0E1F08B00371974E /* InsecureConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91F737DEA5E937688124A1CB1DBD1A /* InsecureConnection.swift */; };
+		50F16C603CAF6C355454C6D143C4DEE8 /* LogPagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55535B8A335ECB472D7813DC77E717 /* LogPagination.swift */; };
+		5256918239050449C237B2E539B3B42C /* MessageInputAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9467ED6B47C9B822DE9ED239EF7CCF6F /* MessageInputAttachment.swift */; };
+		54F87F3236A8B49EB219293DAF14DBF3 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5091090F84BC3D130D23287A3C4844D6 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		571B3DBEFC56EE6261FB2D754E01B340 /* MessageOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A473828A18EC4E796C44CA0287DC91 /* MessageOutput.swift */; };
+		5F8FC653968D964E7104D41DF99CD5F9 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B44A7CBD0E580867A329275DCD0E07 /* Authentication.swift */; };
+		60EFA633A4E7770B5B2100972A01E44E /* MessageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2CA3D70C311CED17B8F51ED8D195A1 /* MessageResponse.swift */; };
+		64A0BDF028EDC60256D3E2E60383261F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		68A5C33ED205DBFAB1227BCB027DAD5B /* CloudPakForDataAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9BA826B280B53409856B04CB8F7286 /* CloudPakForDataAuthenticator.swift */; };
+		7A7D70768C43F988C0F6A3F3A08C9B06 /* CaptureGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E0338E4B715A80E3A3506B04FD9EAD /* CaptureGroup.swift */; };
+		7AF24487C38F13573980DB9B64F566EA /* RuntimeResponseGenericRuntimeResponseTypeChannelTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BDD7949F6855353E63517446651F6 /* RuntimeResponseGenericRuntimeResponseTypeChannelTransfer.swift */; };
+		7B304E41A52CBAD24735B1D6CE830804 /* Pods-KSAVoiceBotTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B1B98CE5420FAB6E2853C4579561FD /* Pods-KSAVoiceBotTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C73AEE1AF3A3141AE0155EA141FD6DD /* RuntimeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F99E830EF4B5B1C48288F3DB7996A3 /* RuntimeEntity.swift */; };
+		7DF8CFC31541ECEB969139E605744704 /* DialogSuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3616A2E40DD0551E434F87FD4AC0B77 /* DialogSuggestion.swift */; };
+		7E689659CA838E9531679420DA0EC002 /* RuntimeResponseGenericRuntimeResponseTypeUserDefined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F07FC95A2067BA343E2238D07E2B51C /* RuntimeResponseGenericRuntimeResponseTypeUserDefined.swift */; };
+		7E7BC8AC15D696C3C50B6F90CB1203C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7ED20258D3C2DDFC0D123021D20618D4 /* MessageInputOptionsStateless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EB198828D829B3BE78A40D18EE9EAF /* MessageInputOptionsStateless.swift */; };
+		81D1F3E3454930ED8828847B4C6B5414 /* RuntimeEntityRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C8E7BA47B45E070241063BCD7021A2 /* RuntimeEntityRole.swift */; };
+		83DCC7FBF670EBB4306DD1D0DE3339E9 /* MessageOutputDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A44FDC4C4F03A348745F7711DB90AFD /* MessageOutputDebug.swift */; };
+		8656A42ED802371C342B3D43417A0BD8 /* MessageInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AC418875B3B481F8AA6709B53721F /* MessageInput.swift */; };
+		86A9DBF69020BA5F0BCFD3C1F6C7FBF6 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897556B2EA489FECD06A850CC7B8ABC3 /* JSON.swift */; };
+		8A66DA13F49FDF9AC6E90A3F0E7DBCE2 /* ObjcAssociatedWeakObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB53626856BBE29E8ED058D59F09D6 /* ObjcAssociatedWeakObject.swift */; };
+		8CC71D2F572CAE92C3F246B59000D552 /* IAMAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF64DC43723D1D34530E93596BEE62CC /* IAMAuthenticator.swift */; };
+		8DAD5DDCEA60BA238D12EB767A1C3442 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10289DAAFAB8F4C8A922F62AB01256 /* MultipartFormData.swift */; };
+		9030C8EDAD5EDEE344E4DC70759763D9 /* BulkClassifyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A06B20D70464ED3580845631F5756 /* BulkClassifyResponse.swift */; };
+		90F23D39B736A13F55C4B2796E9EA7A8 /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4DA34E1B90416623D6503DBD0CCEAC /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		929B6AB79E30A3169203A58B50B8C8C5 /* LogMessageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA6EEA3CF21DF3569DBDB996D7045D /* LogMessageSource.swift */; };
+		932E2679E24E6F8FBF5AB0E6BCA204FC /* SessionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7C13145906EAD0F57CD8E2EE7D248 /* SessionResponse.swift */; };
+		95EA3309617FA6F795CCDCB9A5D8E251 /* DialogNodeVisited.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D05C5ADD01262A22CFB48F843C6F0 /* DialogNodeVisited.swift */; };
+		9C67C07E6C4681B6F9D188B724D14594 /* SearchResultAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B2E5C858570E491A4EA60FDE831105 /* SearchResultAnswer.swift */; };
+		9D1DD83A24767361E47A430DE1E26502 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F88D5F4054FA48338D80FCEFBBBD6902 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-dummy.m */; };
+		9DBF39C54B955010A0A562D326D5878E /* RuntimeResponseGenericRuntimeResponseTypeAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B4CED99DA19623FDFEEBF28106C8E7 /* RuntimeResponseGenericRuntimeResponseTypeAudio.swift */; };
+		A6891C3D69C2ECDDFE560C0AA242D099 /* RuntimeResponseGenericRuntimeResponseTypeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402AB25B570257E4160B2563A86631D3 /* RuntimeResponseGenericRuntimeResponseTypeText.swift */; };
+		A79CF5CB953D4D91309C09E362D34BCA /* DialogNodeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33788BC7493D84E610A1A576989AEE /* DialogNodeAction.swift */; };
+		A8C57035DB83BD01263FD6E34084ECCC /* ConfigBasedAuthenticatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499860C1F88051C17F85D819FA1B60C /* ConfigBasedAuthenticatorFactory.swift */; };
+		A9A1041554B71FEC829296140002B9F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B16C568E7507FDDF474CACBDE735EF08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B1A1F02B042FA6619378852E9895CEB5 /* LogMessageSourceStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A524DD8D6BF19A5CB70FF1056B62493 /* LogMessageSourceStep.swift */; };
+		B2ABB3E4FA49CE97E0C2004378ADDA40 /* IBMSwiftSDKCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE816ADECE9189E66F7B44B93A1D7D9B /* IBMSwiftSDKCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B495C42E9B71BCE7959E450F905E2D7C /* BulkClassifyUtterance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F417BEE010D7A3FB45BE786C8112F3 /* BulkClassifyUtterance.swift */; };
+		B5B5D8201533691CCBBDB3F1D59ADE39 /* Pods-KSAVoiceBot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56392E11A3B29E22BC11F4B80DD63CC2 /* Pods-KSAVoiceBot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE77B54753F25F01286E5A108762E8EE /* ChannelTransferInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6ABF890E77C988AE4F4C28EDB0F128 /* ChannelTransferInfo.swift */; };
+		C0DCDFE730B36710CCFC132AF8587683 /* Pods-KSAVoiceBotTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A53E52045D7CC4C981328FFF928DDC /* Pods-KSAVoiceBotTests-dummy.m */; };
+		C59E41DA7C90DFF3DF0A81E833501102 /* MessageInputOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C27F2517D51DBEB29D90324CA4C9E /* MessageInputOptions.swift */; };
+		C5DD8DAF639BA75918164DEC55E1B6DB /* RuntimeResponseGenericRuntimeResponseTypeVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB00679C0D6012E346D9F4B039AE5 /* RuntimeResponseGenericRuntimeResponseTypeVideo.swift */; };
+		C7035C03725A3FCCDDAF6DB8D2EB08CE /* DialogNodeOutputConnectToAgentTransferInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE6CC1B4FF2C9BCD6C0F545FC9E695C /* DialogNodeOutputConnectToAgentTransferInfo.swift */; };
+		C979151EE823A576159BB306A59F3F8B /* LogMessageSourceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03223DE677483D8D36D5B49F6C89113A /* LogMessageSourceHandler.swift */; };
+		CA143AD8EA107D75B5F006855177AF70 /* MessageContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F7830B5E9EC9BC0EFEB8D662299B96 /* MessageContext.swift */; };
+		CC76CFD96688A4D01A2017D766B34D3D /* SearchResultHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CAD243170BFCAFF67747CAC2DD5B6 /* SearchResultHighlight.swift */; };
+		D07B9FD9E808F689692D1C0D58B42EA4 /* MessageContextGlobalSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677B523E5E3D8026BF7AFA51F9F32B33 /* MessageContextGlobalSystem.swift */; };
+		D34E39CEB1FDD7AC45E4FBB408016703 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670C3EC06093DE258FF4F14243BE720B /* UIImage+SwiftyGif.swift */; };
+		D82FA569A60B54FCF8F4BC65583450A5 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43176B8B3D50FB21D2DF06810EFD7191 /* Shared.swift */; };
+		D9CF92C82DC759DB15DA4C534F04E458 /* MessageContextGlobalStateless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD36AC1B5C95043D415D3802F9F0C27 /* MessageContextGlobalStateless.swift */; };
+		DCE09B9B197D48245D78BC3ACB0EF187 /* ChannelTransferTargetChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767B2BF03B0842822610E461D5BD949D /* ChannelTransferTargetChat.swift */; };
+		DD157845530E8901FFAC1A2769F80287 /* RuntimeResponseGenericRuntimeResponseTypeOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249AB224B3295B4FBBC7984B4EFF321B /* RuntimeResponseGenericRuntimeResponseTypeOption.swift */; };
+		E0BD10140EF6EB02E9238595F78DA5DB /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCC6B0EBDD0357C15CFB656D7B9ACA /* SwiftyGif-dummy.m */; };
+		E1D24BC2B0CAF853F40657453D4E0170 /* RestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852D8FA63A11FB6A9D816173A2EF277 /* RestResponse.swift */; };
+		E45DD693CC1F649D0FFB661EE14EF89B /* LogCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E462DBC35F425B17369B62A04DA7B94 /* LogCollection.swift */; };
+		E6172476C8E3456522079F1D3F85AD99 /* MessageContextStateless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43752F36D973BF76A4E8CC3007575851 /* MessageContextStateless.swift */; };
+		E76987FCEDFF2C0596A97EA72F439775 /* RuntimeResponseGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26F5821F6377E2CDE9DBD74E7A500C /* RuntimeResponseGeneric.swift */; };
+		E9BF7EE70E8A734390B8C4FF126C26DC /* ChannelTransferTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B0A99FA8118694198E95CC90FCDCF /* ChannelTransferTarget.swift */; };
+		EBFE82FF17B93AD4665BFF856882EDBF /* RuntimeEntityAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B85347C1D8B17F72F7E1D2012193325 /* RuntimeEntityAlternative.swift */; };
+		EC2456C6011E7720EF0B61C36AB5B774 /* NSImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20433158FE3FE3BFDF037B29F6A5F1 /* NSImage+SwiftyGif.swift */; };
+		ED031D86B97939E205A2B251AEA2A82A /* RuntimeResponseGenericRuntimeResponseTypeIframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587942CF0A50B95BE60986AB034C1CB6 /* RuntimeResponseGenericRuntimeResponseTypeIframe.swift */; };
+		EF23FB188A80F34F9B450EADE33B8893 /* RuntimeResponseGenericRuntimeResponseTypePause.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8DBF22BEF2A0F801CE147B5AA64BAE /* RuntimeResponseGenericRuntimeResponseTypePause.swift */; };
+		F0959A266694759155CE5873AD665C17 /* RuntimeEntityInterpretation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E964C3820A02F58FD575E95D9D74A17 /* RuntimeEntityInterpretation.swift */; };
+		F383DBF4F2B98100227AB25B6317FBB6 /* LogMessageSourceAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4996B1BC958C0F6051CF56500AD39 /* LogMessageSourceAction.swift */; };
+		F4CFD58FD27BC56266782C15A7A62F68 /* DialogNodeOutputOptionsElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09676391F6CD70EDD27619B2D93540A /* DialogNodeOutputOptionsElement.swift */; };
+		F9D37C6B7E7947DE3E77FDC317FA35D2 /* MessageResponseStateless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC4AF1A68478A9B1D278586E491FBD /* MessageResponseStateless.swift */; };
+		FD3B76D0E50146BA132686135571BDA1 /* ResponseGenericChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD420E8A346FE6D64496E20218914 /* ResponseGenericChannel.swift */; };
+		FD42DF521EA338F958833869A844E603 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3E954FA0D06ED4F8E9115DD2C9807 /* UIImageView+SwiftyGif.swift */; };
+		FD840F341BC9887087359268EB9FEEFE /* MessageInputStateless.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03848CBFE6B1652B2A987CEA5BD2186 /* MessageInputStateless.swift */; };
+		FE655ADE28E2D1B92A1033ED28916904 /* SearchResultMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5F72B50364F326E782AE4CE7DF1A6 /* SearchResultMetadata.swift */; };
+		FFDD8248E9AE6FC0D8423BBA3B419BDB /* MessageContextSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812B04784ECCE657F9617B8CEDCFDEBD /* MessageContextSkill.swift */; };
+		FFF6A3DDED6C1C8775D3200E6C83B965 /* IBMSwiftSDKCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 804A27AA3435FAC9E0C0DA23FDDB6E03 /* IBMSwiftSDKCore-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1073E3FEA6788FB611F558336C892E47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23847EAEB2923A2FCBE9EE6FB9A4BF8E;
+			remoteInfo = IBMWatsonAssistantV2;
+		};
+		3D477E3BBED98A6A0CD0ED34DE2210B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23847EAEB2923A2FCBE9EE6FB9A4BF8E;
+			remoteInfo = IBMWatsonAssistantV2;
+		};
+		5AD7010C57518DD5D5AD399A89391F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+		6FA4296BEBA1D6ABFF9DBB69F9BE8B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C212BBFAF6FC8270BF5BEF8057998E30;
+			remoteInfo = IBMSwiftSDKCore;
+		};
+		7367450E9E02C1824EF1F787C32AF676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+		B9FE7F28D9C80CCEDF6DD735CCADEC7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C212BBFAF6FC8270BF5BEF8057998E30;
+			remoteInfo = IBMSwiftSDKCore;
+		};
+		C0D606F06E2CA1A4ECCD50CAFF05DA85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C212BBFAF6FC8270BF5BEF8057998E30;
+			remoteInfo = IBMSwiftSDKCore;
+		};
+		D4CA25B52CEB513D87C6CB6E9F735B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523FCD1DC20298DE7EA649644C8F695C;
+			remoteInfo = "Pods-KSAVoiceBot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000156C95934918792ED4C858BC38061 /* Pods-KSAVoiceBot-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSAVoiceBot-frameworks.sh"; sourceTree = "<group>"; };
+		01A3375C086C2643FE1B3EF2B3071890 /* IBMWatsonAssistantV2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBMWatsonAssistantV2-umbrella.h"; sourceTree = "<group>"; };
+		03223DE677483D8D36D5B49F6C89113A /* LogMessageSourceHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogMessageSourceHandler.swift; path = Sources/AssistantV2/Models/LogMessageSourceHandler.swift; sourceTree = "<group>"; };
+		036D231329B1A96D164240485F6001BA /* RuntimeIntent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeIntent.swift; path = Sources/AssistantV2/Models/RuntimeIntent.swift; sourceTree = "<group>"; };
+		09C19E93B610EC0DFC3206D43FF73261 /* IBMSwiftSDKCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBMSwiftSDKCore-prefix.pch"; sourceTree = "<group>"; };
+		0B171A8181847EF0AB63AE07FC5E4BBD /* MessageRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageRequest.swift; path = Sources/AssistantV2/Models/MessageRequest.swift; sourceTree = "<group>"; };
+		0CDBB82919B21948126D7F7449649451 /* MessageContextSkillSystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageContextSkillSystem.swift; path = Sources/AssistantV2/Models/MessageContextSkillSystem.swift; sourceTree = "<group>"; };
+		0E462DBC35F425B17369B62A04DA7B94 /* LogCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCollection.swift; path = Sources/AssistantV2/Models/LogCollection.swift; sourceTree = "<group>"; };
+		0E6970E20305B2BDCA7E431F471F3394 /* SwiftyGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.release.xcconfig; sourceTree = "<group>"; };
+		0EC82CF2B2AC6DD1702DFB375D8A00B4 /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
+		0F0BE89286F5B9E4863298429100BC43 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSAVoiceBot-KSAVoiceBotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1313E4FD56A210C14C8BEB9B4FFD16D8 /* RestError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestError.swift; path = Sources/IBMSwiftSDKCore/RestError.swift; sourceTree = "<group>"; };
+		14688AA94AD3273F07C3877B16216F42 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSAVoiceBot-KSAVoiceBotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		14E0338E4B715A80E3A3506B04FD9EAD /* CaptureGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureGroup.swift; path = Sources/AssistantV2/Models/CaptureGroup.swift; sourceTree = "<group>"; };
+		15ECB15D715C10FE00533A6C8A227791 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSAVoiceBot-KSAVoiceBotUITests.modulemap"; sourceTree = "<group>"; };
+		16EB198828D829B3BE78A40D18EE9EAF /* MessageInputOptionsStateless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageInputOptionsStateless.swift; path = Sources/AssistantV2/Models/MessageInputOptionsStateless.swift; sourceTree = "<group>"; };
+		19561550D4A285980BF3AAEF4C0FE082 /* Pods-KSAVoiceBotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSAVoiceBotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BCEB00679C0D6012E346D9F4B039AE5 /* RuntimeResponseGenericRuntimeResponseTypeVideo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGenericRuntimeResponseTypeVideo.swift; path = Sources/AssistantV2/Models/RuntimeResponseGenericRuntimeResponseTypeVideo.swift; sourceTree = "<group>"; };
+		20667D05BE39D6CC04124B829C562AF9 /* RestRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestRequest.swift; path = Sources/IBMSwiftSDKCore/RestRequest.swift; sourceTree = "<group>"; };
+		20F7830B5E9EC9BC0EFEB8D662299B96 /* MessageContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageContext.swift; path = Sources/AssistantV2/Models/MessageContext.swift; sourceTree = "<group>"; };
+		249AB224B3295B4FBBC7984B4EFF321B /* RuntimeResponseGenericRuntimeResponseTypeOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGenericRuntimeResponseTypeOption.swift; path = Sources/AssistantV2/Models/RuntimeResponseGenericRuntimeResponseTypeOption.swift; sourceTree = "<group>"; };
+		27B44A7CBD0E580867A329275DCD0E07 /* Authentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authentication.swift; path = Sources/IBMSwiftSDKCore/Authentication/Authentication.swift; sourceTree = "<group>"; };
+		28CE934C0AE01F59D17D358B8A3F74F0 /* LogMessageSourceDialogNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogMessageSourceDialogNode.swift; path = Sources/AssistantV2/Models/LogMessageSourceDialogNode.swift; sourceTree = "<group>"; };
+		2E076B7FF62D7FA678A6E24E3DA979CC /* Pods-KSAVoiceBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSAVoiceBot.release.xcconfig"; sourceTree = "<group>"; };
+		307595806291521E57193746229C7ADB /* SearchResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResult.swift; path = Sources/AssistantV2/Models/SearchResult.swift; sourceTree = "<group>"; };
+		335F8B1CE7FE90B19D498718C09169B7 /* IBMSwiftSDKCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IBMSwiftSDKCore-Info.plist"; sourceTree = "<group>"; };
+		33D6CCDB9D58515BC87DD52F6F15F7D3 /* IBMSwiftSDKCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IBMSwiftSDKCore.modulemap; sourceTree = "<group>"; };
+		3A524DD8D6BF19A5CB70FF1056B62493 /* LogMessageSourceStep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogMessageSourceStep.swift; path = Sources/AssistantV2/Models/LogMessageSourceStep.swift; sourceTree = "<group>"; };
+		3BBB53626856BBE29E8ED058D59F09D6 /* ObjcAssociatedWeakObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjcAssociatedWeakObject.swift; path = SwiftyGif/ObjcAssociatedWeakObject.swift; sourceTree = "<group>"; };
+		3E4B3942984845FF3BD5AB9AF30D278F /* MessageInputOptionsSpelling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageInputOptionsSpelling.swift; path = Sources/AssistantV2/Models/MessageInputOptionsSpelling.swift; sourceTree = "<group>"; };
+		3E5B0FEC86CEC539BFDD8172106D4DA2 /* Pods-KSAVoiceBot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSAVoiceBot-dummy.m"; sourceTree = "<group>"; };
+		3E964C3820A02F58FD575E95D9D74A17 /* RuntimeEntityInterpretation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeEntityInterpretation.swift; path = Sources/AssistantV2/Models/RuntimeEntityInterpretation.swift; sourceTree = "<group>"; };
+		3F07FC95A2067BA343E2238D07E2B51C /* RuntimeResponseGenericRuntimeResponseTypeUserDefined.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGenericRuntimeResponseTypeUserDefined.swift; path = Sources/AssistantV2/Models/RuntimeResponseGenericRuntimeResponseTypeUserDefined.swift; sourceTree = "<group>"; };
+		3F3A06B20D70464ED3580845631F5756 /* BulkClassifyResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulkClassifyResponse.swift; path = Sources/AssistantV2/Models/BulkClassifyResponse.swift; sourceTree = "<group>"; };
+		402AB25B570257E4160B2563A86631D3 /* RuntimeResponseGenericRuntimeResponseTypeText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGenericRuntimeResponseTypeText.swift; path = Sources/AssistantV2/Models/RuntimeResponseGenericRuntimeResponseTypeText.swift; sourceTree = "<group>"; };
+		43176B8B3D50FB21D2DF06810EFD7191 /* Shared.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shared.swift; path = Sources/SupportingFiles/Shared.swift; sourceTree = "<group>"; };
+		43752F36D973BF76A4E8CC3007575851 /* MessageContextStateless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageContextStateless.swift; path = Sources/AssistantV2/Models/MessageContextStateless.swift; sourceTree = "<group>"; };
+		438C8E2FA0322576125D9E7B5A1D2367 /* Pods-KSAVoiceBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSAVoiceBot.debug.xcconfig"; sourceTree = "<group>"; };
+		43E0EFFD12AC2BB5B192511AB447CB49 /* CredentialUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialUtils.swift; path = Sources/IBMSwiftSDKCore/CredentialUtils.swift; sourceTree = "<group>"; };
+		445EFA1B2412800043DE10F5F3B6A577 /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyGif.modulemap; sourceTree = "<group>"; };
+		4782EB4EA0D0552D308F8ABCAB0EB811 /* IBMWatsonAssistantV2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IBMWatsonAssistantV2-Info.plist"; sourceTree = "<group>"; };
+		4B4DA34E1B90416623D6503DBD0CCEAC /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
+		4CC53F51697A14086FB26A973611A1F1 /* Pods-KSAVoiceBotTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSAVoiceBotTests.modulemap"; sourceTree = "<group>"; };
+		4CD36AC1B5C95043D415D3802F9F0C27 /* MessageContextGlobalStateless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageContextGlobalStateless.swift; path = Sources/AssistantV2/Models/MessageContextGlobalStateless.swift; sourceTree = "<group>"; };
+		4FEA7B42CA85B66FB10147C4DA49DC07 /* DialogLogMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DialogLogMessage.swift; path = Sources/AssistantV2/Models/DialogLogMessage.swift; sourceTree = "<group>"; };
+		5091090F84BC3D130D23287A3C4844D6 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSAVoiceBot-KSAVoiceBotUITests-umbrella.h"; sourceTree = "<group>"; };
+		51E8278C604F20810974A0BEC00D00C4 /* Pods-KSAVoiceBot */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KSAVoiceBot"; path = Pods_KSAVoiceBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		532DBBACD804D2FC48F4404B4F3A1ED5 /* Pods-KSAVoiceBot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSAVoiceBot-acknowledgements.plist"; sourceTree = "<group>"; };
+		53344248122885241F247EE4B0063E48 /* DialogNodeOutputOptionsElementValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DialogNodeOutputOptionsElementValue.swift; path = Sources/AssistantV2/Models/DialogNodeOutputOptionsElementValue.swift; sourceTree = "<group>"; };
+		53D6ACC0EC5C98599F30963D4782F724 /* Pods-KSAVoiceBot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KSAVoiceBot.modulemap"; sourceTree = "<group>"; };
+		56392E11A3B29E22BC11F4B80DD63CC2 /* Pods-KSAVoiceBot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSAVoiceBot-umbrella.h"; sourceTree = "<group>"; };
+		587942CF0A50B95BE60986AB034C1CB6 /* RuntimeResponseGenericRuntimeResponseTypeIframe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGenericRuntimeResponseTypeIframe.swift; path = Sources/AssistantV2/Models/RuntimeResponseGenericRuntimeResponseTypeIframe.swift; sourceTree = "<group>"; };
+		5929915080D30635818F88D03C601CF4 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSAVoiceBot-KSAVoiceBotUITests-Info.plist"; sourceTree = "<group>"; };
+		5B85347C1D8B17F72F7E1D2012193325 /* RuntimeEntityAlternative.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeEntityAlternative.swift; path = Sources/AssistantV2/Models/RuntimeEntityAlternative.swift; sourceTree = "<group>"; };
+		5C1C27F2517D51DBEB29D90324CA4C9E /* MessageInputOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageInputOptions.swift; path = Sources/AssistantV2/Models/MessageInputOptions.swift; sourceTree = "<group>"; };
+		5D60C56D3C0E5D4E4665F3C3A6B48E45 /* Pods-KSAVoiceBotTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSAVoiceBotTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E20433158FE3FE3BFDF037B29F6A5F1 /* NSImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImage+SwiftyGif.swift"; path = "SwiftyGif/NSImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		60E9E1444E664BA1D8348E0AE2394CB5 /* IBMWatsonAssistantV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBMWatsonAssistantV2.release.xcconfig; sourceTree = "<group>"; };
+		617634BB3440BBAE886851888CDD8128 /* InsecureConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InsecureConnection.swift; path = Sources/SupportingFiles/InsecureConnection.swift; sourceTree = "<group>"; };
+		61B4CED99DA19623FDFEEBF28106C8E7 /* RuntimeResponseGenericRuntimeResponseTypeAudio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGenericRuntimeResponseTypeAudio.swift; path = Sources/AssistantV2/Models/RuntimeResponseGenericRuntimeResponseTypeAudio.swift; sourceTree = "<group>"; };
+		65B83EA8CDF5108A29308C0BAD6CBF27 /* RuntimeResponseGenericRuntimeResponseTypeImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGenericRuntimeResponseTypeImage.swift; path = Sources/AssistantV2/Models/RuntimeResponseGenericRuntimeResponseTypeImage.swift; sourceTree = "<group>"; };
+		670C3EC06093DE258FF4F14243BE720B /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		677B523E5E3D8026BF7AFA51F9F32B33 /* MessageContextGlobalSystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageContextGlobalSystem.swift; path = Sources/AssistantV2/Models/MessageContextGlobalSystem.swift; sourceTree = "<group>"; };
+		694C0043F29D3ACD0307AFB0AA252B7A /* IBMWatsonAssistantV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IBMWatsonAssistantV2-dummy.m"; sourceTree = "<group>"; };
+		6CADBB418F5C99E93C619FD53C7C05EF /* IBMWatsonAssistantV2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBMWatsonAssistantV2-prefix.pch"; sourceTree = "<group>"; };
+		6D6ABF890E77C988AE4F4C28EDB0F128 /* ChannelTransferInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChannelTransferInfo.swift; path = Sources/AssistantV2/Models/ChannelTransferInfo.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		767B2BF03B0842822610E461D5BD949D /* ChannelTransferTargetChat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChannelTransferTargetChat.swift; path = Sources/AssistantV2/Models/ChannelTransferTargetChat.swift; sourceTree = "<group>"; };
+		7A44FDC4C4F03A348745F7711DB90AFD /* MessageOutputDebug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageOutputDebug.swift; path = Sources/AssistantV2/Models/MessageOutputDebug.swift; sourceTree = "<group>"; };
+		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGif; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD4996B1BC958C0F6051CF56500AD39 /* LogMessageSourceAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogMessageSourceAction.swift; path = Sources/AssistantV2/Models/LogMessageSourceAction.swift; sourceTree = "<group>"; };
+		804A27AA3435FAC9E0C0DA23FDDB6E03 /* IBMSwiftSDKCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IBMSwiftSDKCore-dummy.m"; sourceTree = "<group>"; };
+		80F417BEE010D7A3FB45BE786C8112F3 /* BulkClassifyUtterance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulkClassifyUtterance.swift; path = Sources/AssistantV2/Models/BulkClassifyUtterance.swift; sourceTree = "<group>"; };
+		812B04784ECCE657F9617B8CEDCFDEBD /* MessageContextSkill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageContextSkill.swift; path = Sources/AssistantV2/Models/MessageContextSkill.swift; sourceTree = "<group>"; };
+		82503F268ABFBBD4E7EC5A631E135AC7 /* MessageOutputSpelling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageOutputSpelling.swift; path = Sources/AssistantV2/Models/MessageOutputSpelling.swift; sourceTree = "<group>"; };
+		83C8E7BA47B45E070241063BCD7021A2 /* RuntimeEntityRole.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeEntityRole.swift; path = Sources/AssistantV2/Models/RuntimeEntityRole.swift; sourceTree = "<group>"; };
+		88A53E52045D7CC4C981328FFF928DDC /* Pods-KSAVoiceBotTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSAVoiceBotTests-dummy.m"; sourceTree = "<group>"; };
+		88F99E830EF4B5B1C48288F3DB7996A3 /* RuntimeEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeEntity.swift; path = Sources/AssistantV2/Models/RuntimeEntity.swift; sourceTree = "<group>"; };
+		897556B2EA489FECD06A850CC7B8ABC3 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/IBMSwiftSDKCore/JSON.swift; sourceTree = "<group>"; };
+		8C10289DAAFAB8F4C8A922F62AB01256 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Sources/IBMSwiftSDKCore/MultipartFormData.swift; sourceTree = "<group>"; };
+		8C3276A34DBC367708874C36A03561A3 /* IBMWatsonAssistantV2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IBMWatsonAssistantV2; path = Assistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2633C797DD1DFCBF17AABA59DE7DF9 /* DialogSuggestionValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DialogSuggestionValue.swift; path = Sources/AssistantV2/Models/DialogSuggestionValue.swift; sourceTree = "<group>"; };
+		905E63BC1C4E40F39720C6E6214846EB /* IBMWatsonAssistantV2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IBMWatsonAssistantV2.modulemap; sourceTree = "<group>"; };
+		90B1B98CE5420FAB6E2853C4579561FD /* Pods-KSAVoiceBotTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSAVoiceBotTests-umbrella.h"; sourceTree = "<group>"; };
+		9233379FE95B13C4460026F89B3BDEA1 /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
+		92AC4AF1A68478A9B1D278586E491FBD /* MessageResponseStateless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageResponseStateless.swift; path = Sources/AssistantV2/Models/MessageResponseStateless.swift; sourceTree = "<group>"; };
+		9467ED6B47C9B822DE9ED239EF7CCF6F /* MessageInputAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageInputAttachment.swift; path = Sources/AssistantV2/Models/MessageInputAttachment.swift; sourceTree = "<group>"; };
+		96CF8F03DB1617098BB007CDBE106864 /* JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = Sources/IBMSwiftSDKCore/Authentication/JWT.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A09676391F6CD70EDD27619B2D93540A /* DialogNodeOutputOptionsElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DialogNodeOutputOptionsElement.swift; path = Sources/AssistantV2/Models/DialogNodeOutputOptionsElement.swift; sourceTree = "<group>"; };
+		A0BCC6B0EBDD0357C15CFB656D7B9ACA /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
+		A5F5F72B50364F326E782AE4CE7DF1A6 /* SearchResultMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResultMetadata.swift; path = Sources/AssistantV2/Models/SearchResultMetadata.swift; sourceTree = "<group>"; };
+		A6684333CA3BB15729028EB0440C29D2 /* SwiftyGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.debug.xcconfig; sourceTree = "<group>"; };
+		A8B2E5C858570E491A4EA60FDE831105 /* SearchResultAnswer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResultAnswer.swift; path = Sources/AssistantV2/Models/SearchResultAnswer.swift; sourceTree = "<group>"; };
+		AABFD30E13FA954BD36D7B6823BBA7D5 /* CodableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableExtensions.swift; path = Sources/IBMSwiftSDKCore/CodableExtensions.swift; sourceTree = "<group>"; };
+		AD8FB89815B98812A344B5477A272231 /* RuntimeResponseGenericRuntimeResponseTypeSuggestion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGenericRuntimeResponseTypeSuggestion.swift; path = Sources/AssistantV2/Models/RuntimeResponseGenericRuntimeResponseTypeSuggestion.swift; sourceTree = "<group>"; };
+		AF64DC43723D1D34530E93596BEE62CC /* IAMAuthenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IAMAuthenticator.swift; path = Sources/IBMSwiftSDKCore/Authentication/IAMAuthenticator.swift; sourceTree = "<group>"; };
+		AFCAD420E8A346FE6D64496E20218914 /* ResponseGenericChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseGenericChannel.swift; path = Sources/AssistantV2/Models/ResponseGenericChannel.swift; sourceTree = "<group>"; };
+		B5E7C13145906EAD0F57CD8E2EE7D248 /* SessionResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionResponse.swift; path = Sources/AssistantV2/Models/SessionResponse.swift; sourceTree = "<group>"; };
+		B8413EC412566A54B214223166C20E12 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSAVoiceBot-KSAVoiceBotUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8DF9A553D1BACFF462943D5E21FB915 /* SwiftyGif-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGif-Info.plist"; sourceTree = "<group>"; };
+		BBEF900051700571947B9F32B840771D /* IBMSwiftSDKCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBMSwiftSDKCore.release.xcconfig; sourceTree = "<group>"; };
+		BE9BA826B280B53409856B04CB8F7286 /* CloudPakForDataAuthenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudPakForDataAuthenticator.swift; path = Sources/IBMSwiftSDKCore/Authentication/CloudPakForDataAuthenticator.swift; sourceTree = "<group>"; };
+		BEE9C0AE2C676B5762F5909E36B85656 /* NSImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImageView+SwiftyGif.swift"; path = "SwiftyGif/NSImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		C03848CBFE6B1652B2A987CEA5BD2186 /* MessageInputStateless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageInputStateless.swift; path = Sources/AssistantV2/Models/MessageInputStateless.swift; sourceTree = "<group>"; };
+		C1C16817581C6B153819B80936803D8B /* Pods-KSAVoiceBotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSAVoiceBotTests.release.xcconfig"; sourceTree = "<group>"; };
+		C21B0A99FA8118694198E95CC90FCDCF /* ChannelTransferTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChannelTransferTarget.swift; path = Sources/AssistantV2/Models/ChannelTransferTarget.swift; sourceTree = "<group>"; };
+		C3616A2E40DD0551E434F87FD4AC0B77 /* DialogSuggestion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DialogSuggestion.swift; path = Sources/AssistantV2/Models/DialogSuggestion.swift; sourceTree = "<group>"; };
+		C416FEFABF5942EAE334E339CC51AE38 /* RuntimeResponseGenericRuntimeResponseTypeConnectToAgent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGenericRuntimeResponseTypeConnectToAgent.swift; path = Sources/AssistantV2/Models/RuntimeResponseGenericRuntimeResponseTypeConnectToAgent.swift; sourceTree = "<group>"; };
+		C499860C1F88051C17F85D819FA1B60C /* ConfigBasedAuthenticatorFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigBasedAuthenticatorFactory.swift; path = Sources/IBMSwiftSDKCore/Authentication/ConfigBasedAuthenticatorFactory.swift; sourceTree = "<group>"; };
+		C735F68DDCA3A2FB4037894B4EDB8697 /* Pods-KSAVoiceBot-KSAVoiceBotUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KSAVoiceBot-KSAVoiceBotUITests"; path = Pods_KSAVoiceBot_KSAVoiceBotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99DCA7662E8330CEAE30DBCAAEF33D1 /* RuntimeResponseGenericRuntimeResponseTypeSearch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGenericRuntimeResponseTypeSearch.swift; path = Sources/AssistantV2/Models/RuntimeResponseGenericRuntimeResponseTypeSearch.swift; sourceTree = "<group>"; };
+		CA2CA3D70C311CED17B8F51ED8D195A1 /* MessageResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageResponse.swift; path = Sources/AssistantV2/Models/MessageResponse.swift; sourceTree = "<group>"; };
+		CAE6CC1B4FF2C9BCD6C0F545FC9E695C /* DialogNodeOutputConnectToAgentTransferInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DialogNodeOutputConnectToAgentTransferInfo.swift; path = Sources/AssistantV2/Models/DialogNodeOutputConnectToAgentTransferInfo.swift; sourceTree = "<group>"; };
+		CC4EE1F27242F89A48BB9A2F599C4ABF /* Pods-KSAVoiceBot-KSAVoiceBotUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSAVoiceBot-KSAVoiceBotUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCA9F6C613AB7969E12B2F9588CB182B /* Pods-KSAVoiceBotTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSAVoiceBotTests-Info.plist"; sourceTree = "<group>"; };
+		D1304D3F7D27C94AF8F3B3E945B73BD1 /* BulkClassifyOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulkClassifyOutput.swift; path = Sources/AssistantV2/Models/BulkClassifyOutput.swift; sourceTree = "<group>"; };
+		D7BC3B6AB1E4137B03F61EEDDCE61162 /* IBMSwiftSDKCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IBMSwiftSDKCore; path = IBMSwiftSDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8AF95706FA752728754BAE2BD625B38 /* Pods-KSAVoiceBotTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSAVoiceBotTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA25CA9555F74E661CF488AF940F1597 /* Pods-KSAVoiceBot-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSAVoiceBot-Info.plist"; sourceTree = "<group>"; };
+		DD33788BC7493D84E610A1A576989AEE /* DialogNodeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DialogNodeAction.swift; path = Sources/AssistantV2/Models/DialogNodeAction.swift; sourceTree = "<group>"; };
+		DDED1587402D1B32B738E7F6CA4B3015 /* Pods-KSAVoiceBotTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KSAVoiceBotTests"; path = Pods_KSAVoiceBotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE816ADECE9189E66F7B44B93A1D7D9B /* IBMSwiftSDKCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBMSwiftSDKCore-umbrella.h"; sourceTree = "<group>"; };
+		DF26F5821F6377E2CDE9DBD74E7A500C /* RuntimeResponseGeneric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGeneric.swift; path = Sources/AssistantV2/Models/RuntimeResponseGeneric.swift; sourceTree = "<group>"; };
+		DFCA6EEA3CF21DF3569DBDB996D7045D /* LogMessageSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogMessageSource.swift; path = Sources/AssistantV2/Models/LogMessageSource.swift; sourceTree = "<group>"; };
+		DFEB3B21EC64E5B58D61ACC7180DC485 /* AgentAvailabilityMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgentAvailabilityMessage.swift; path = Sources/AssistantV2/Models/AgentAvailabilityMessage.swift; sourceTree = "<group>"; };
+		E00A5224133D177EEAC6910A6C469842 /* Assistant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assistant.swift; path = Sources/AssistantV2/Assistant.swift; sourceTree = "<group>"; };
+		E34AC418875B3B481F8AA6709B53721F /* MessageInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageInput.swift; path = Sources/AssistantV2/Models/MessageInput.swift; sourceTree = "<group>"; };
+		E70FA2334A91DD5B56A2EE47E73EF63E /* Pods-KSAVoiceBot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSAVoiceBot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8102FDBBC5D83F98BACBF89B99B8AA1 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Sources/AssistantV2/Models/Log.swift; sourceTree = "<group>"; };
+		E919D41F9424F4E9581873F9E2E0C295 /* IBMSwiftSDKCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBMSwiftSDKCore.debug.xcconfig; sourceTree = "<group>"; };
+		EB570D029DC529658EB2FC2218CAC204 /* MessageContextGlobal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageContextGlobal.swift; path = Sources/AssistantV2/Models/MessageContextGlobal.swift; sourceTree = "<group>"; };
+		EE6D05C5ADD01262A22CFB48F843C6F0 /* DialogNodeVisited.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DialogNodeVisited.swift; path = Sources/AssistantV2/Models/DialogNodeVisited.swift; sourceTree = "<group>"; };
+		EF1BDD7949F6855353E63517446651F6 /* RuntimeResponseGenericRuntimeResponseTypeChannelTransfer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGenericRuntimeResponseTypeChannelTransfer.swift; path = Sources/AssistantV2/Models/RuntimeResponseGenericRuntimeResponseTypeChannelTransfer.swift; sourceTree = "<group>"; };
+		EF55535B8A335ECB472D7813DC77E717 /* LogPagination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogPagination.swift; path = Sources/AssistantV2/Models/LogPagination.swift; sourceTree = "<group>"; };
+		EF8DBF22BEF2A0F801CE147B5AA64BAE /* RuntimeResponseGenericRuntimeResponseTypePause.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuntimeResponseGenericRuntimeResponseTypePause.swift; path = Sources/AssistantV2/Models/RuntimeResponseGenericRuntimeResponseTypePause.swift; sourceTree = "<group>"; };
+		F6A473828A18EC4E796C44CA0287DC91 /* MessageOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageOutput.swift; path = Sources/AssistantV2/Models/MessageOutput.swift; sourceTree = "<group>"; };
+		F852D8FA63A11FB6A9D816173A2EF277 /* RestResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestResponse.swift; path = Sources/IBMSwiftSDKCore/RestResponse.swift; sourceTree = "<group>"; };
+		F88D5F4054FA48338D80FCEFBBBD6902 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KSAVoiceBot-KSAVoiceBotUITests-dummy.m"; sourceTree = "<group>"; };
+		FA6950B351C015122B9683EC0FC9203E /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		FAC3E954FA0D06ED4F8E9115DD2C9807 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		FB3D8DC4ABF70BA7F2B2D7DD9DD9AA69 /* IBMWatsonAssistantV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBMWatsonAssistantV2.debug.xcconfig; sourceTree = "<group>"; };
+		FB91F737DEA5E937688124A1CB1DBD1A /* InsecureConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InsecureConnection.swift; path = Sources/IBMSwiftSDKCore/Authentication/InsecureConnection.swift; sourceTree = "<group>"; };
+		FE36D578830C13F2483ECD168A9C31B6 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KSAVoiceBot-KSAVoiceBotUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FF5CAD243170BFCAFF67747CAC2DD5B6 /* SearchResultHighlight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResultHighlight.swift; path = Sources/AssistantV2/Models/SearchResultHighlight.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F67A1C2C90C2CEF2DEC527A7E5826B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A1041554B71FEC829296140002B9F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB2F30FF6DF32FB1E9AECF87A084560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7BC8AC15D696C3C50B6F90CB1203C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CF7E848BD9796896BEC3AC6CAE5A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4037F996AFFB10E6563988C4E0C29D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A092D97A0DA2E1676CD7027B857EF2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FD0B02104D67914DDE6F3CC8FA5BF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D7C358BE65DADC319D184CB0FDE913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16C568E7507FDDF474CACBDE735EF08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D863F6E626842B281F37C2D2755CC6B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A0BDF028EDC60256D3E2E60383261F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18642916AC5A22A198E3EA2BB3B8B803 /* IBMSwiftSDKCore */ = {
+			isa = PBXGroup;
+			children = (
+				27B44A7CBD0E580867A329275DCD0E07 /* Authentication.swift */,
+				BE9BA826B280B53409856B04CB8F7286 /* CloudPakForDataAuthenticator.swift */,
+				AABFD30E13FA954BD36D7B6823BBA7D5 /* CodableExtensions.swift */,
+				C499860C1F88051C17F85D819FA1B60C /* ConfigBasedAuthenticatorFactory.swift */,
+				43E0EFFD12AC2BB5B192511AB447CB49 /* CredentialUtils.swift */,
+				AF64DC43723D1D34530E93596BEE62CC /* IAMAuthenticator.swift */,
+				FB91F737DEA5E937688124A1CB1DBD1A /* InsecureConnection.swift */,
+				897556B2EA489FECD06A850CC7B8ABC3 /* JSON.swift */,
+				96CF8F03DB1617098BB007CDBE106864 /* JWT.swift */,
+				8C10289DAAFAB8F4C8A922F62AB01256 /* MultipartFormData.swift */,
+				1313E4FD56A210C14C8BEB9B4FFD16D8 /* RestError.swift */,
+				20667D05BE39D6CC04124B829C562AF9 /* RestRequest.swift */,
+				F852D8FA63A11FB6A9D816173A2EF277 /* RestResponse.swift */,
+				5D99BC7FBCBD4FA0222A739A98E91CED /* Support Files */,
+			);
+			name = IBMSwiftSDKCore;
+			path = IBMSwiftSDKCore;
+			sourceTree = "<group>";
+		};
+		28BD0D80D5A67258B0D112101DD4D9EC /* Pods-KSAVoiceBot */ = {
+			isa = PBXGroup;
+			children = (
+				53D6ACC0EC5C98599F30963D4782F724 /* Pods-KSAVoiceBot.modulemap */,
+				E70FA2334A91DD5B56A2EE47E73EF63E /* Pods-KSAVoiceBot-acknowledgements.markdown */,
+				532DBBACD804D2FC48F4404B4F3A1ED5 /* Pods-KSAVoiceBot-acknowledgements.plist */,
+				3E5B0FEC86CEC539BFDD8172106D4DA2 /* Pods-KSAVoiceBot-dummy.m */,
+				000156C95934918792ED4C858BC38061 /* Pods-KSAVoiceBot-frameworks.sh */,
+				DA25CA9555F74E661CF488AF940F1597 /* Pods-KSAVoiceBot-Info.plist */,
+				56392E11A3B29E22BC11F4B80DD63CC2 /* Pods-KSAVoiceBot-umbrella.h */,
+				438C8E2FA0322576125D9E7B5A1D2367 /* Pods-KSAVoiceBot.debug.xcconfig */,
+				2E076B7FF62D7FA678A6E24E3DA979CC /* Pods-KSAVoiceBot.release.xcconfig */,
+			);
+			name = "Pods-KSAVoiceBot";
+			path = "Target Support Files/Pods-KSAVoiceBot";
+			sourceTree = "<group>";
+		};
+		512F613079A36597EB2B5C2AFB4A03B8 /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				5E20433158FE3FE3BFDF037B29F6A5F1 /* NSImage+SwiftyGif.swift */,
+				BEE9C0AE2C676B5762F5909E36B85656 /* NSImageView+SwiftyGif.swift */,
+				3BBB53626856BBE29E8ED058D59F09D6 /* ObjcAssociatedWeakObject.swift */,
+				9233379FE95B13C4460026F89B3BDEA1 /* SwiftyGif.h */,
+				FA6950B351C015122B9683EC0FC9203E /* SwiftyGifManager.swift */,
+				670C3EC06093DE258FF4F14243BE720B /* UIImage+SwiftyGif.swift */,
+				FAC3E954FA0D06ED4F8E9115DD2C9807 /* UIImageView+SwiftyGif.swift */,
+				7BDE1AE09A582644F4497A10D9170759 /* Support Files */,
+			);
+			name = SwiftyGif;
+			path = SwiftyGif;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D99BC7FBCBD4FA0222A739A98E91CED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33D6CCDB9D58515BC87DD52F6F15F7D3 /* IBMSwiftSDKCore.modulemap */,
+				804A27AA3435FAC9E0C0DA23FDDB6E03 /* IBMSwiftSDKCore-dummy.m */,
+				335F8B1CE7FE90B19D498718C09169B7 /* IBMSwiftSDKCore-Info.plist */,
+				09C19E93B610EC0DFC3206D43FF73261 /* IBMSwiftSDKCore-prefix.pch */,
+				DE816ADECE9189E66F7B44B93A1D7D9B /* IBMSwiftSDKCore-umbrella.h */,
+				E919D41F9424F4E9581873F9E2E0C295 /* IBMSwiftSDKCore.debug.xcconfig */,
+				BBEF900051700571947B9F32B840771D /* IBMSwiftSDKCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IBMSwiftSDKCore";
+			sourceTree = "<group>";
+		};
+		5FF5CA8AEF5ECB6904F066A545373B15 /* Pods-KSAVoiceBot-KSAVoiceBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15ECB15D715C10FE00533A6C8A227791 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.modulemap */,
+				CC4EE1F27242F89A48BB9A2F599C4ABF /* Pods-KSAVoiceBot-KSAVoiceBotUITests-acknowledgements.markdown */,
+				B8413EC412566A54B214223166C20E12 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-acknowledgements.plist */,
+				F88D5F4054FA48338D80FCEFBBBD6902 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-dummy.m */,
+				FE36D578830C13F2483ECD168A9C31B6 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-frameworks.sh */,
+				5929915080D30635818F88D03C601CF4 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-Info.plist */,
+				5091090F84BC3D130D23287A3C4844D6 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-umbrella.h */,
+				14688AA94AD3273F07C3877B16216F42 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.debug.xcconfig */,
+				0F0BE89286F5B9E4863298429100BC43 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.release.xcconfig */,
+			);
+			name = "Pods-KSAVoiceBot-KSAVoiceBotUITests";
+			path = "Target Support Files/Pods-KSAVoiceBot-KSAVoiceBotUITests";
+			sourceTree = "<group>";
+		};
+		7BDE1AE09A582644F4497A10D9170759 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				445EFA1B2412800043DE10F5F3B6A577 /* SwiftyGif.modulemap */,
+				A0BCC6B0EBDD0357C15CFB656D7B9ACA /* SwiftyGif-dummy.m */,
+				B8DF9A553D1BACFF462943D5E21FB915 /* SwiftyGif-Info.plist */,
+				0EC82CF2B2AC6DD1702DFB375D8A00B4 /* SwiftyGif-prefix.pch */,
+				4B4DA34E1B90416623D6503DBD0CCEAC /* SwiftyGif-umbrella.h */,
+				A6684333CA3BB15729028EB0440C29D2 /* SwiftyGif.debug.xcconfig */,
+				0E6970E20305B2BDCA7E431F471F3394 /* SwiftyGif.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyGif";
+			sourceTree = "<group>";
+		};
+		7FAD2FE3FD8F434D0446483F8331D868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18642916AC5A22A198E3EA2BB3B8B803 /* IBMSwiftSDKCore */,
+				802EE6E2C443CB9527C71054800BF04D /* IBMWatsonAssistantV2 */,
+				512F613079A36597EB2B5C2AFB4A03B8 /* SwiftyGif */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		802EE6E2C443CB9527C71054800BF04D /* IBMWatsonAssistantV2 */ = {
+			isa = PBXGroup;
+			children = (
+				DFEB3B21EC64E5B58D61ACC7180DC485 /* AgentAvailabilityMessage.swift */,
+				E00A5224133D177EEAC6910A6C469842 /* Assistant.swift */,
+				D1304D3F7D27C94AF8F3B3E945B73BD1 /* BulkClassifyOutput.swift */,
+				3F3A06B20D70464ED3580845631F5756 /* BulkClassifyResponse.swift */,
+				80F417BEE010D7A3FB45BE786C8112F3 /* BulkClassifyUtterance.swift */,
+				14E0338E4B715A80E3A3506B04FD9EAD /* CaptureGroup.swift */,
+				6D6ABF890E77C988AE4F4C28EDB0F128 /* ChannelTransferInfo.swift */,
+				C21B0A99FA8118694198E95CC90FCDCF /* ChannelTransferTarget.swift */,
+				767B2BF03B0842822610E461D5BD949D /* ChannelTransferTargetChat.swift */,
+				4FEA7B42CA85B66FB10147C4DA49DC07 /* DialogLogMessage.swift */,
+				DD33788BC7493D84E610A1A576989AEE /* DialogNodeAction.swift */,
+				CAE6CC1B4FF2C9BCD6C0F545FC9E695C /* DialogNodeOutputConnectToAgentTransferInfo.swift */,
+				A09676391F6CD70EDD27619B2D93540A /* DialogNodeOutputOptionsElement.swift */,
+				53344248122885241F247EE4B0063E48 /* DialogNodeOutputOptionsElementValue.swift */,
+				EE6D05C5ADD01262A22CFB48F843C6F0 /* DialogNodeVisited.swift */,
+				C3616A2E40DD0551E434F87FD4AC0B77 /* DialogSuggestion.swift */,
+				8E2633C797DD1DFCBF17AABA59DE7DF9 /* DialogSuggestionValue.swift */,
+				617634BB3440BBAE886851888CDD8128 /* InsecureConnection.swift */,
+				E8102FDBBC5D83F98BACBF89B99B8AA1 /* Log.swift */,
+				0E462DBC35F425B17369B62A04DA7B94 /* LogCollection.swift */,
+				DFCA6EEA3CF21DF3569DBDB996D7045D /* LogMessageSource.swift */,
+				7FD4996B1BC958C0F6051CF56500AD39 /* LogMessageSourceAction.swift */,
+				28CE934C0AE01F59D17D358B8A3F74F0 /* LogMessageSourceDialogNode.swift */,
+				03223DE677483D8D36D5B49F6C89113A /* LogMessageSourceHandler.swift */,
+				3A524DD8D6BF19A5CB70FF1056B62493 /* LogMessageSourceStep.swift */,
+				EF55535B8A335ECB472D7813DC77E717 /* LogPagination.swift */,
+				20F7830B5E9EC9BC0EFEB8D662299B96 /* MessageContext.swift */,
+				EB570D029DC529658EB2FC2218CAC204 /* MessageContextGlobal.swift */,
+				4CD36AC1B5C95043D415D3802F9F0C27 /* MessageContextGlobalStateless.swift */,
+				677B523E5E3D8026BF7AFA51F9F32B33 /* MessageContextGlobalSystem.swift */,
+				812B04784ECCE657F9617B8CEDCFDEBD /* MessageContextSkill.swift */,
+				0CDBB82919B21948126D7F7449649451 /* MessageContextSkillSystem.swift */,
+				43752F36D973BF76A4E8CC3007575851 /* MessageContextStateless.swift */,
+				E34AC418875B3B481F8AA6709B53721F /* MessageInput.swift */,
+				9467ED6B47C9B822DE9ED239EF7CCF6F /* MessageInputAttachment.swift */,
+				5C1C27F2517D51DBEB29D90324CA4C9E /* MessageInputOptions.swift */,
+				3E4B3942984845FF3BD5AB9AF30D278F /* MessageInputOptionsSpelling.swift */,
+				16EB198828D829B3BE78A40D18EE9EAF /* MessageInputOptionsStateless.swift */,
+				C03848CBFE6B1652B2A987CEA5BD2186 /* MessageInputStateless.swift */,
+				F6A473828A18EC4E796C44CA0287DC91 /* MessageOutput.swift */,
+				7A44FDC4C4F03A348745F7711DB90AFD /* MessageOutputDebug.swift */,
+				82503F268ABFBBD4E7EC5A631E135AC7 /* MessageOutputSpelling.swift */,
+				0B171A8181847EF0AB63AE07FC5E4BBD /* MessageRequest.swift */,
+				CA2CA3D70C311CED17B8F51ED8D195A1 /* MessageResponse.swift */,
+				92AC4AF1A68478A9B1D278586E491FBD /* MessageResponseStateless.swift */,
+				AFCAD420E8A346FE6D64496E20218914 /* ResponseGenericChannel.swift */,
+				88F99E830EF4B5B1C48288F3DB7996A3 /* RuntimeEntity.swift */,
+				5B85347C1D8B17F72F7E1D2012193325 /* RuntimeEntityAlternative.swift */,
+				3E964C3820A02F58FD575E95D9D74A17 /* RuntimeEntityInterpretation.swift */,
+				83C8E7BA47B45E070241063BCD7021A2 /* RuntimeEntityRole.swift */,
+				036D231329B1A96D164240485F6001BA /* RuntimeIntent.swift */,
+				DF26F5821F6377E2CDE9DBD74E7A500C /* RuntimeResponseGeneric.swift */,
+				61B4CED99DA19623FDFEEBF28106C8E7 /* RuntimeResponseGenericRuntimeResponseTypeAudio.swift */,
+				EF1BDD7949F6855353E63517446651F6 /* RuntimeResponseGenericRuntimeResponseTypeChannelTransfer.swift */,
+				C416FEFABF5942EAE334E339CC51AE38 /* RuntimeResponseGenericRuntimeResponseTypeConnectToAgent.swift */,
+				587942CF0A50B95BE60986AB034C1CB6 /* RuntimeResponseGenericRuntimeResponseTypeIframe.swift */,
+				65B83EA8CDF5108A29308C0BAD6CBF27 /* RuntimeResponseGenericRuntimeResponseTypeImage.swift */,
+				249AB224B3295B4FBBC7984B4EFF321B /* RuntimeResponseGenericRuntimeResponseTypeOption.swift */,
+				EF8DBF22BEF2A0F801CE147B5AA64BAE /* RuntimeResponseGenericRuntimeResponseTypePause.swift */,
+				C99DCA7662E8330CEAE30DBCAAEF33D1 /* RuntimeResponseGenericRuntimeResponseTypeSearch.swift */,
+				AD8FB89815B98812A344B5477A272231 /* RuntimeResponseGenericRuntimeResponseTypeSuggestion.swift */,
+				402AB25B570257E4160B2563A86631D3 /* RuntimeResponseGenericRuntimeResponseTypeText.swift */,
+				3F07FC95A2067BA343E2238D07E2B51C /* RuntimeResponseGenericRuntimeResponseTypeUserDefined.swift */,
+				1BCEB00679C0D6012E346D9F4B039AE5 /* RuntimeResponseGenericRuntimeResponseTypeVideo.swift */,
+				307595806291521E57193746229C7ADB /* SearchResult.swift */,
+				A8B2E5C858570E491A4EA60FDE831105 /* SearchResultAnswer.swift */,
+				FF5CAD243170BFCAFF67747CAC2DD5B6 /* SearchResultHighlight.swift */,
+				A5F5F72B50364F326E782AE4CE7DF1A6 /* SearchResultMetadata.swift */,
+				B5E7C13145906EAD0F57CD8E2EE7D248 /* SessionResponse.swift */,
+				43176B8B3D50FB21D2DF06810EFD7191 /* Shared.swift */,
+				ED1B31C77E78B90E604647EDBAA9E2D2 /* Support Files */,
+			);
+			name = IBMWatsonAssistantV2;
+			path = IBMWatsonAssistantV2;
+			sourceTree = "<group>";
+		};
+		BECE0081E314CB1889D796F494C3064B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7BC3B6AB1E4137B03F61EEDDCE61162 /* IBMSwiftSDKCore */,
+				8C3276A34DBC367708874C36A03561A3 /* IBMWatsonAssistantV2 */,
+				51E8278C604F20810974A0BEC00D00C4 /* Pods-KSAVoiceBot */,
+				C735F68DDCA3A2FB4037894B4EDB8697 /* Pods-KSAVoiceBot-KSAVoiceBotUITests */,
+				DDED1587402D1B32B738E7F6CA4B3015 /* Pods-KSAVoiceBotTests */,
+				7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBABA4A27CD276462798EB09A7919F09 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28BD0D80D5A67258B0D112101DD4D9EC /* Pods-KSAVoiceBot */,
+				5FF5CA8AEF5ECB6904F066A545373B15 /* Pods-KSAVoiceBot-KSAVoiceBotUITests */,
+				DA5A5D9D184C894A253CB4272A4AB7FB /* Pods-KSAVoiceBotTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7FAD2FE3FD8F434D0446483F8331D868 /* Pods */,
+				BECE0081E314CB1889D796F494C3064B /* Products */,
+				CBABA4A27CD276462798EB09A7919F09 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA5A5D9D184C894A253CB4272A4AB7FB /* Pods-KSAVoiceBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CC53F51697A14086FB26A973611A1F1 /* Pods-KSAVoiceBotTests.modulemap */,
+				5D60C56D3C0E5D4E4665F3C3A6B48E45 /* Pods-KSAVoiceBotTests-acknowledgements.markdown */,
+				D8AF95706FA752728754BAE2BD625B38 /* Pods-KSAVoiceBotTests-acknowledgements.plist */,
+				88A53E52045D7CC4C981328FFF928DDC /* Pods-KSAVoiceBotTests-dummy.m */,
+				CCA9F6C613AB7969E12B2F9588CB182B /* Pods-KSAVoiceBotTests-Info.plist */,
+				90B1B98CE5420FAB6E2853C4579561FD /* Pods-KSAVoiceBotTests-umbrella.h */,
+				19561550D4A285980BF3AAEF4C0FE082 /* Pods-KSAVoiceBotTests.debug.xcconfig */,
+				C1C16817581C6B153819B80936803D8B /* Pods-KSAVoiceBotTests.release.xcconfig */,
+			);
+			name = "Pods-KSAVoiceBotTests";
+			path = "Target Support Files/Pods-KSAVoiceBotTests";
+			sourceTree = "<group>";
+		};
+		ED1B31C77E78B90E604647EDBAA9E2D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				905E63BC1C4E40F39720C6E6214846EB /* IBMWatsonAssistantV2.modulemap */,
+				694C0043F29D3ACD0307AFB0AA252B7A /* IBMWatsonAssistantV2-dummy.m */,
+				4782EB4EA0D0552D308F8ABCAB0EB811 /* IBMWatsonAssistantV2-Info.plist */,
+				6CADBB418F5C99E93C619FD53C7C05EF /* IBMWatsonAssistantV2-prefix.pch */,
+				01A3375C086C2643FE1B3EF2B3071890 /* IBMWatsonAssistantV2-umbrella.h */,
+				FB3D8DC4ABF70BA7F2B2D7DD9DD9AA69 /* IBMWatsonAssistantV2.debug.xcconfig */,
+				60E9E1444E664BA1D8348E0AE2394CB5 /* IBMWatsonAssistantV2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IBMWatsonAssistantV2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16594316E662E6657F95624F0229BD2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B5D8201533691CCBBDB3F1D59ADE39 /* Pods-KSAVoiceBot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF72566A59B7220D6F10BB8D031A791 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2ABB3E4FA49CE97E0C2004378ADDA40 /* IBMSwiftSDKCore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBE5CA95F0BA7DF99E908640CA38B3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F87F3236A8B49EB219293DAF14DBF3 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE48B035F3D4A9898760A0B8BEE759C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B304E41A52CBAD24735B1D6CE830804 /* Pods-KSAVoiceBotTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CEDDDF8D4CFF0877E7D9AFE081BEF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0376CBADD8283EA45F75FD58855E2482 /* IBMWatsonAssistantV2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6250923615FD738FBB9701899B04543 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1119BB99FE65FEEA8D08332195F21172 /* SwiftyGif.h in Headers */,
+				90F23D39B736A13F55C4B2796E9EA7A8 /* SwiftyGif-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C867C5A40F81096D616EDC7F38540A72 /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
+			buildPhases = (
+				F6250923615FD738FBB9701899B04543 /* Headers */,
+				ED0AE9A395D326A6C08DFB5657455BFA /* Sources */,
+				70CF7E848BD9796896BEC3AC6CAE5A64 /* Frameworks */,
+				F76858BC3579218524AE8B626C810CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyGif;
+			productName = SwiftyGif;
+			productReference = 7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */;
+			productType = "com.apple.product-type.framework";
+		};
+		23847EAEB2923A2FCBE9EE6FB9A4BF8E /* IBMWatsonAssistantV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5183E4FC7706A8D5D3B3A5B00BB1B2 /* Build configuration list for PBXNativeTarget "IBMWatsonAssistantV2" */;
+			buildPhases = (
+				B7CEDDDF8D4CFF0877E7D9AFE081BEF0 /* Headers */,
+				51E0690C301089DB114684A6706C8AA5 /* Sources */,
+				5EB2F30FF6DF32FB1E9AECF87A084560 /* Frameworks */,
+				8ED1A0FCFF077DA76031003280F1CF01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB11A62C1E32F8AA2DCACCF94D894853 /* PBXTargetDependency */,
+			);
+			name = IBMWatsonAssistantV2;
+			productName = Assistant;
+			productReference = 8C3276A34DBC367708874C36A03561A3 /* IBMWatsonAssistantV2 */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A8324C7039D5D3A8892ABF719A5A822 /* Pods-KSAVoiceBot-KSAVoiceBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3971884DA5B64B894C40874ACE1CEB15 /* Build configuration list for PBXNativeTarget "Pods-KSAVoiceBot-KSAVoiceBotUITests" */;
+			buildPhases = (
+				2FBE5CA95F0BA7DF99E908640CA38B3E /* Headers */,
+				2876E48053D1B1B4794231A7606C1FD3 /* Sources */,
+				A2D7C358BE65DADC319D184CB0FDE913 /* Frameworks */,
+				E371763E152AB0052050A261485D49EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107047E55DEDACFFB30578A5125CBC34 /* PBXTargetDependency */,
+				D15807CC076F848B3ACDF01A191C647F /* PBXTargetDependency */,
+				9DBFF31AC1ADE286DE3D345F19DEC281 /* PBXTargetDependency */,
+			);
+			name = "Pods-KSAVoiceBot-KSAVoiceBotUITests";
+			productName = Pods_KSAVoiceBot_KSAVoiceBotUITests;
+			productReference = C735F68DDCA3A2FB4037894B4EDB8697 /* Pods-KSAVoiceBot-KSAVoiceBotUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		523FCD1DC20298DE7EA649644C8F695C /* Pods-KSAVoiceBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7988FD667D8343A0F9B745092B7438B7 /* Build configuration list for PBXNativeTarget "Pods-KSAVoiceBot" */;
+			buildPhases = (
+				16594316E662E6657F95624F0229BD2B /* Headers */,
+				B1ECD589B589B3714E54E12583A9A17D /* Sources */,
+				3F67A1C2C90C2CEF2DEC527A7E5826B8 /* Frameworks */,
+				D96143DACD9F896207947579BDDD9F23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD78D4B9B8FCA15BD3E5931B1A4B44FF /* PBXTargetDependency */,
+				71266AC4199F82786143E04325A9BE28 /* PBXTargetDependency */,
+				7D461F1C8F19BB4E8CE22EE0123B31FF /* PBXTargetDependency */,
+			);
+			name = "Pods-KSAVoiceBot";
+			productName = Pods_KSAVoiceBot;
+			productReference = 51E8278C604F20810974A0BEC00D00C4 /* Pods-KSAVoiceBot */;
+			productType = "com.apple.product-type.framework";
+		};
+		89C952F0222A0E2CF1E9BD51563D6355 /* Pods-KSAVoiceBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2169920F57587A9F4D5C4E60FC6DEE /* Build configuration list for PBXNativeTarget "Pods-KSAVoiceBotTests" */;
+			buildPhases = (
+				ABE48B035F3D4A9898760A0B8BEE759C /* Headers */,
+				8AB5213022A7A0BAB555AD74BB12720D /* Sources */,
+				A092D97A0DA2E1676CD7027B857EF2EA /* Frameworks */,
+				6A4138C0AC3504C40C5C495F2444F4E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92AB22D278CEEA1ADC25F64D7DDE73ED /* PBXTargetDependency */,
+			);
+			name = "Pods-KSAVoiceBotTests";
+			productName = Pods_KSAVoiceBotTests;
+			productReference = DDED1587402D1B32B738E7F6CA4B3015 /* Pods-KSAVoiceBotTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C212BBFAF6FC8270BF5BEF8057998E30 /* IBMSwiftSDKCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA5FF0FEDE23C6DEFC90C364519AAFF /* Build configuration list for PBXNativeTarget "IBMSwiftSDKCore" */;
+			buildPhases = (
+				2BF72566A59B7220D6F10BB8D031A791 /* Headers */,
+				F0F51801B348F1D6A2ECFF1510272397 /* Sources */,
+				D863F6E626842B281F37C2D2755CC6B7 /* Frameworks */,
+				15177CE6BB6C5F15DEBC3D926C4E787A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBMSwiftSDKCore;
+			productName = IBMSwiftSDKCore;
+			productReference = D7BC3B6AB1E4137B03F61EEDDCE61162 /* IBMSwiftSDKCore */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BECE0081E314CB1889D796F494C3064B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C212BBFAF6FC8270BF5BEF8057998E30 /* IBMSwiftSDKCore */,
+				23847EAEB2923A2FCBE9EE6FB9A4BF8E /* IBMWatsonAssistantV2 */,
+				523FCD1DC20298DE7EA649644C8F695C /* Pods-KSAVoiceBot */,
+				2A8324C7039D5D3A8892ABF719A5A822 /* Pods-KSAVoiceBot-KSAVoiceBotUITests */,
+				89C952F0222A0E2CF1E9BD51563D6355 /* Pods-KSAVoiceBotTests */,
+				15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15177CE6BB6C5F15DEBC3D926C4E787A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A4138C0AC3504C40C5C495F2444F4E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED1A0FCFF077DA76031003280F1CF01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D96143DACD9F896207947579BDDD9F23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E371763E152AB0052050A261485D49EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76858BC3579218524AE8B626C810CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2876E48053D1B1B4794231A7606C1FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1DD83A24767361E47A430DE1E26502 /* Pods-KSAVoiceBot-KSAVoiceBotUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E0690C301089DB114684A6706C8AA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460A7D281F71CD842187CFEF68807F7F /* AgentAvailabilityMessage.swift in Sources */,
+				3286194AD1DB09E757A20C35F3905478 /* Assistant.swift in Sources */,
+				14D7C6373C74178E0A8C95FEA1183F5A /* BulkClassifyOutput.swift in Sources */,
+				9030C8EDAD5EDEE344E4DC70759763D9 /* BulkClassifyResponse.swift in Sources */,
+				B495C42E9B71BCE7959E450F905E2D7C /* BulkClassifyUtterance.swift in Sources */,
+				7A7D70768C43F988C0F6A3F3A08C9B06 /* CaptureGroup.swift in Sources */,
+				BE77B54753F25F01286E5A108762E8EE /* ChannelTransferInfo.swift in Sources */,
+				E9BF7EE70E8A734390B8C4FF126C26DC /* ChannelTransferTarget.swift in Sources */,
+				DCE09B9B197D48245D78BC3ACB0EF187 /* ChannelTransferTargetChat.swift in Sources */,
+				0A40B48996196F3AE3CD73051D257210 /* DialogLogMessage.swift in Sources */,
+				A79CF5CB953D4D91309C09E362D34BCA /* DialogNodeAction.swift in Sources */,
+				C7035C03725A3FCCDDAF6DB8D2EB08CE /* DialogNodeOutputConnectToAgentTransferInfo.swift in Sources */,
+				F4CFD58FD27BC56266782C15A7A62F68 /* DialogNodeOutputOptionsElement.swift in Sources */,
+				3573C82E6DFF7938A5986821D244CDF7 /* DialogNodeOutputOptionsElementValue.swift in Sources */,
+				95EA3309617FA6F795CCDCB9A5D8E251 /* DialogNodeVisited.swift in Sources */,
+				7DF8CFC31541ECEB969139E605744704 /* DialogSuggestion.swift in Sources */,
+				150F08215645B3F3C84C4EFAB85EC66D /* DialogSuggestionValue.swift in Sources */,
+				243240ADCF020CFD1A5B79037BC937E7 /* IBMWatsonAssistantV2-dummy.m in Sources */,
+				3657883D3D9ADCA05B538D66B292F139 /* InsecureConnection.swift in Sources */,
+				0616CE50297B2F98C2A69FFCDFDEFAB2 /* Log.swift in Sources */,
+				E45DD693CC1F649D0FFB661EE14EF89B /* LogCollection.swift in Sources */,
+				929B6AB79E30A3169203A58B50B8C8C5 /* LogMessageSource.swift in Sources */,
+				F383DBF4F2B98100227AB25B6317FBB6 /* LogMessageSourceAction.swift in Sources */,
+				13A69DB5AD804BECED5EA6463518B09D /* LogMessageSourceDialogNode.swift in Sources */,
+				C979151EE823A576159BB306A59F3F8B /* LogMessageSourceHandler.swift in Sources */,
+				B1A1F02B042FA6619378852E9895CEB5 /* LogMessageSourceStep.swift in Sources */,
+				50F16C603CAF6C355454C6D143C4DEE8 /* LogPagination.swift in Sources */,
+				CA143AD8EA107D75B5F006855177AF70 /* MessageContext.swift in Sources */,
+				27564303CD23F0E8CF8625E7A78A7692 /* MessageContextGlobal.swift in Sources */,
+				D9CF92C82DC759DB15DA4C534F04E458 /* MessageContextGlobalStateless.swift in Sources */,
+				D07B9FD9E808F689692D1C0D58B42EA4 /* MessageContextGlobalSystem.swift in Sources */,
+				FFDD8248E9AE6FC0D8423BBA3B419BDB /* MessageContextSkill.swift in Sources */,
+				2DF0487316C1BDB974C1879803A3C21E /* MessageContextSkillSystem.swift in Sources */,
+				E6172476C8E3456522079F1D3F85AD99 /* MessageContextStateless.swift in Sources */,
+				8656A42ED802371C342B3D43417A0BD8 /* MessageInput.swift in Sources */,
+				5256918239050449C237B2E539B3B42C /* MessageInputAttachment.swift in Sources */,
+				C59E41DA7C90DFF3DF0A81E833501102 /* MessageInputOptions.swift in Sources */,
+				0E0327CBB0B18A13F04D68671C4AA081 /* MessageInputOptionsSpelling.swift in Sources */,
+				7ED20258D3C2DDFC0D123021D20618D4 /* MessageInputOptionsStateless.swift in Sources */,
+				FD840F341BC9887087359268EB9FEEFE /* MessageInputStateless.swift in Sources */,
+				571B3DBEFC56EE6261FB2D754E01B340 /* MessageOutput.swift in Sources */,
+				83DCC7FBF670EBB4306DD1D0DE3339E9 /* MessageOutputDebug.swift in Sources */,
+				1F07D95F4EB55EC46C276BAE6405FBE0 /* MessageOutputSpelling.swift in Sources */,
+				367BEAE354CDFDCBE23C3E494F96DA31 /* MessageRequest.swift in Sources */,
+				60EFA633A4E7770B5B2100972A01E44E /* MessageResponse.swift in Sources */,
+				F9D37C6B7E7947DE3E77FDC317FA35D2 /* MessageResponseStateless.swift in Sources */,
+				FD3B76D0E50146BA132686135571BDA1 /* ResponseGenericChannel.swift in Sources */,
+				7C73AEE1AF3A3141AE0155EA141FD6DD /* RuntimeEntity.swift in Sources */,
+				EBFE82FF17B93AD4665BFF856882EDBF /* RuntimeEntityAlternative.swift in Sources */,
+				F0959A266694759155CE5873AD665C17 /* RuntimeEntityInterpretation.swift in Sources */,
+				81D1F3E3454930ED8828847B4C6B5414 /* RuntimeEntityRole.swift in Sources */,
+				3CE9A4D26456ED055F94D6C360D60D51 /* RuntimeIntent.swift in Sources */,
+				E76987FCEDFF2C0596A97EA72F439775 /* RuntimeResponseGeneric.swift in Sources */,
+				9DBF39C54B955010A0A562D326D5878E /* RuntimeResponseGenericRuntimeResponseTypeAudio.swift in Sources */,
+				7AF24487C38F13573980DB9B64F566EA /* RuntimeResponseGenericRuntimeResponseTypeChannelTransfer.swift in Sources */,
+				1731423F92740EC960D196A6714EC76D /* RuntimeResponseGenericRuntimeResponseTypeConnectToAgent.swift in Sources */,
+				ED031D86B97939E205A2B251AEA2A82A /* RuntimeResponseGenericRuntimeResponseTypeIframe.swift in Sources */,
+				326077A637C359FD77A6AC00D4205B42 /* RuntimeResponseGenericRuntimeResponseTypeImage.swift in Sources */,
+				DD157845530E8901FFAC1A2769F80287 /* RuntimeResponseGenericRuntimeResponseTypeOption.swift in Sources */,
+				EF23FB188A80F34F9B450EADE33B8893 /* RuntimeResponseGenericRuntimeResponseTypePause.swift in Sources */,
+				275E083F49CDE379D029D428E762A90F /* RuntimeResponseGenericRuntimeResponseTypeSearch.swift in Sources */,
+				31AA9DC1498B26F7A2A45385C17BE0AF /* RuntimeResponseGenericRuntimeResponseTypeSuggestion.swift in Sources */,
+				A6891C3D69C2ECDDFE560C0AA242D099 /* RuntimeResponseGenericRuntimeResponseTypeText.swift in Sources */,
+				7E689659CA838E9531679420DA0EC002 /* RuntimeResponseGenericRuntimeResponseTypeUserDefined.swift in Sources */,
+				C5DD8DAF639BA75918164DEC55E1B6DB /* RuntimeResponseGenericRuntimeResponseTypeVideo.swift in Sources */,
+				0D6311F6EC3DAF4A4B0FEF98C4B4CE57 /* SearchResult.swift in Sources */,
+				9C67C07E6C4681B6F9D188B724D14594 /* SearchResultAnswer.swift in Sources */,
+				CC76CFD96688A4D01A2017D766B34D3D /* SearchResultHighlight.swift in Sources */,
+				FE655ADE28E2D1B92A1033ED28916904 /* SearchResultMetadata.swift in Sources */,
+				932E2679E24E6F8FBF5AB0E6BCA204FC /* SessionResponse.swift in Sources */,
+				D82FA569A60B54FCF8F4BC65583450A5 /* Shared.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB5213022A7A0BAB555AD74BB12720D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DCDFE730B36710CCFC132AF8587683 /* Pods-KSAVoiceBotTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1ECD589B589B3714E54E12583A9A17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD878DD60D5C105E48A276AC651FDE9 /* Pods-KSAVoiceBot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0AE9A395D326A6C08DFB5657455BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2456C6011E7720EF0B61C36AB5B774 /* NSImage+SwiftyGif.swift in Sources */,
+				12C043525A25252B692AB7089BD72D51 /* NSImageView+SwiftyGif.swift in Sources */,
+				8A66DA13F49FDF9AC6E90A3F0E7DBCE2 /* ObjcAssociatedWeakObject.swift in Sources */,
+				E0BD10140EF6EB02E9238595F78DA5DB /* SwiftyGif-dummy.m in Sources */,
+				1E0F83CE320F1651CB12A8AB1CBD19D9 /* SwiftyGifManager.swift in Sources */,
+				D34E39CEB1FDD7AC45E4FBB408016703 /* UIImage+SwiftyGif.swift in Sources */,
+				FD42DF521EA338F958833869A844E603 /* UIImageView+SwiftyGif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F51801B348F1D6A2ECFF1510272397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8FC653968D964E7104D41DF99CD5F9 /* Authentication.swift in Sources */,
+				68A5C33ED205DBFAB1227BCB027DAD5B /* CloudPakForDataAuthenticator.swift in Sources */,
+				23F9AEC69FA1ADC15FD9228029509866 /* CodableExtensions.swift in Sources */,
+				A8C57035DB83BD01263FD6E34084ECCC /* ConfigBasedAuthenticatorFactory.swift in Sources */,
+				16228676CBE881B13B9B9A7D92EF8911 /* CredentialUtils.swift in Sources */,
+				8CC71D2F572CAE92C3F246B59000D552 /* IAMAuthenticator.swift in Sources */,
+				FFF6A3DDED6C1C8775D3200E6C83B965 /* IBMSwiftSDKCore-dummy.m in Sources */,
+				50E4589E67547F7B0E1F08B00371974E /* InsecureConnection.swift in Sources */,
+				86A9DBF69020BA5F0BCFD3C1F6C7FBF6 /* JSON.swift in Sources */,
+				1274083BEECA3D55DA995F4638B3C358 /* JWT.swift in Sources */,
+				8DAD5DDCEA60BA238D12EB767A1C3442 /* MultipartFormData.swift in Sources */,
+				14C08BCFDB503F63E49E6222BEF5B270 /* RestError.swift in Sources */,
+				463BD9FB45CC942F1DDB8D73E5DAEEBA /* RestRequest.swift in Sources */,
+				E1D24BC2B0CAF853F40657453D4E0170 /* RestResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		107047E55DEDACFFB30578A5125CBC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IBMSwiftSDKCore;
+			target = C212BBFAF6FC8270BF5BEF8057998E30 /* IBMSwiftSDKCore */;
+			targetProxy = C0D606F06E2CA1A4ECCD50CAFF05DA85 /* PBXContainerItemProxy */;
+		};
+		71266AC4199F82786143E04325A9BE28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IBMWatsonAssistantV2;
+			target = 23847EAEB2923A2FCBE9EE6FB9A4BF8E /* IBMWatsonAssistantV2 */;
+			targetProxy = 1073E3FEA6788FB611F558336C892E47 /* PBXContainerItemProxy */;
+		};
+		7D461F1C8F19BB4E8CE22EE0123B31FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = 7367450E9E02C1824EF1F787C32AF676 /* PBXContainerItemProxy */;
+		};
+		92AB22D278CEEA1ADC25F64D7DDE73ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KSAVoiceBot";
+			target = 523FCD1DC20298DE7EA649644C8F695C /* Pods-KSAVoiceBot */;
+			targetProxy = D4CA25B52CEB513D87C6CB6E9F735B3A /* PBXContainerItemProxy */;
+		};
+		9DBFF31AC1ADE286DE3D345F19DEC281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = 5AD7010C57518DD5D5AD399A89391F9F /* PBXContainerItemProxy */;
+		};
+		D15807CC076F848B3ACDF01A191C647F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IBMWatsonAssistantV2;
+			target = 23847EAEB2923A2FCBE9EE6FB9A4BF8E /* IBMWatsonAssistantV2 */;
+			targetProxy = 3D477E3BBED98A6A0CD0ED34DE2210B1 /* PBXContainerItemProxy */;
+		};
+		DD78D4B9B8FCA15BD3E5931B1A4B44FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IBMSwiftSDKCore;
+			target = C212BBFAF6FC8270BF5BEF8057998E30 /* IBMSwiftSDKCore */;
+			targetProxy = B9FE7F28D9C80CCEDF6DD735CCADEC7E /* PBXContainerItemProxy */;
+		};
+		EB11A62C1E32F8AA2DCACCF94D894853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IBMSwiftSDKCore;
+			target = C212BBFAF6FC8270BF5BEF8057998E30 /* IBMSwiftSDKCore */;
+			targetProxy = 6FA4296BEBA1D6ABFF9DBB69F9BE8B2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10BD71CD69507B58DCE08E4BF5C0E278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1528FECC55785F30671EAD7A84FDD16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E919D41F9424F4E9581873F9E2E0C295 /* IBMSwiftSDKCore.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IBMSwiftSDKCore/IBMSwiftSDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBMSwiftSDKCore/IBMSwiftSDKCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IBMSwiftSDKCore/IBMSwiftSDKCore.modulemap";
+				PRODUCT_MODULE_NAME = IBMSwiftSDKCore;
+				PRODUCT_NAME = IBMSwiftSDKCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1AC7B915D20758332722DE0E1F05A3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E6970E20305B2BDCA7E431F471F3394 /* SwiftyGif.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B8E8AE78B00F428BE050AF07AC93AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E076B7FF62D7FA678A6E24E3DA979CC /* Pods-KSAVoiceBot.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSAVoiceBot/Pods-KSAVoiceBot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSAVoiceBot/Pods-KSAVoiceBot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		280CBEAB0354DDBC341510E41B3F1D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8F702427DE1F5D5A37B96A5E0A907EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438C8E2FA0322576125D9E7B5A1D2367 /* Pods-KSAVoiceBot.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSAVoiceBot/Pods-KSAVoiceBot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSAVoiceBot/Pods-KSAVoiceBot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93ECF7FC956EA46808807ADB29BDCE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3D8DC4ABF70BA7F2B2D7DD9DD9AA69 /* IBMWatsonAssistantV2.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IBMWatsonAssistantV2/IBMWatsonAssistantV2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBMWatsonAssistantV2/IBMWatsonAssistantV2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IBMWatsonAssistantV2/IBMWatsonAssistantV2.modulemap";
+				PRODUCT_MODULE_NAME = Assistant;
+				PRODUCT_NAME = Assistant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FDA6DF9129764C3226558A0F2D536A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14688AA94AD3273F07C3877B16216F42 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSAVoiceBot-KSAVoiceBotUITests/Pods-KSAVoiceBot-KSAVoiceBotUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSAVoiceBot-KSAVoiceBotUITests/Pods-KSAVoiceBot-KSAVoiceBotUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C328EB6A9839E4AA5F9202344E3D8D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6684333CA3BB15729028EB0440C29D2 /* SwiftyGif.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5A6DDDDE615A0D4323908F923D47B1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F0BE89286F5B9E4863298429100BC43 /* Pods-KSAVoiceBot-KSAVoiceBotUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSAVoiceBot-KSAVoiceBotUITests/Pods-KSAVoiceBot-KSAVoiceBotUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSAVoiceBot-KSAVoiceBotUITests/Pods-KSAVoiceBot-KSAVoiceBotUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C69816775EE13E0574DF65178FB02FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBEF900051700571947B9F32B840771D /* IBMSwiftSDKCore.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IBMSwiftSDKCore/IBMSwiftSDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBMSwiftSDKCore/IBMSwiftSDKCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IBMSwiftSDKCore/IBMSwiftSDKCore.modulemap";
+				PRODUCT_MODULE_NAME = IBMSwiftSDKCore;
+				PRODUCT_NAME = IBMSwiftSDKCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6A263BB03FAB68C884D0E08A7A6F27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19561550D4A285980BF3AAEF4C0FE082 /* Pods-KSAVoiceBotTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSAVoiceBotTests/Pods-KSAVoiceBotTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSAVoiceBotTests/Pods-KSAVoiceBotTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F043F230E3E17DA90D71358D8D1868B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C16817581C6B153819B80936803D8B /* Pods-KSAVoiceBotTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KSAVoiceBotTests/Pods-KSAVoiceBotTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KSAVoiceBotTests/Pods-KSAVoiceBotTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDE3BB32DE1B1F7AB8480FB0C9736C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E9E1444E664BA1D8348E0AE2394CB5 /* IBMWatsonAssistantV2.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IBMWatsonAssistantV2/IBMWatsonAssistantV2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBMWatsonAssistantV2/IBMWatsonAssistantV2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IBMWatsonAssistantV2/IBMWatsonAssistantV2.modulemap";
+				PRODUCT_MODULE_NAME = Assistant;
+				PRODUCT_NAME = Assistant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3971884DA5B64B894C40874ACE1CEB15 /* Build configuration list for PBXNativeTarget "Pods-KSAVoiceBot-KSAVoiceBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FDA6DF9129764C3226558A0F2D536A6 /* Debug */,
+				C5A6DDDDE615A0D4323908F923D47B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BD71CD69507B58DCE08E4BF5C0E278 /* Debug */,
+				280CBEAB0354DDBC341510E41B3F1D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA5FF0FEDE23C6DEFC90C364519AAFF /* Build configuration list for PBXNativeTarget "IBMSwiftSDKCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1528FECC55785F30671EAD7A84FDD16B /* Debug */,
+				C69816775EE13E0574DF65178FB02FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7988FD667D8343A0F9B745092B7438B7 /* Build configuration list for PBXNativeTarget "Pods-KSAVoiceBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F702427DE1F5D5A37B96A5E0A907EE1 /* Debug */,
+				1B8E8AE78B00F428BE050AF07AC93AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2169920F57587A9F4D5C4E60FC6DEE /* Build configuration list for PBXNativeTarget "Pods-KSAVoiceBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A263BB03FAB68C884D0E08A7A6F27C /* Debug */,
+				F043F230E3E17DA90D71358D8D1868B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C867C5A40F81096D616EDC7F38540A72 /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C328EB6A9839E4AA5F9202344E3D8D7F /* Debug */,
+				1AC7B915D20758332722DE0E1F05A3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5183E4FC7706A8D5D3B3A5B00BB1B2 /* Build configuration list for PBXNativeTarget "IBMWatsonAssistantV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93ECF7FC956EA46808807ADB29BDCE84 /* Debug */,
+				FDE3BB32DE1B1F7AB8480FB0C9736C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
